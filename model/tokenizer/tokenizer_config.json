@@ -1,8 +1,7 @@
 {
-  "add_prefix_space": false,
   "added_tokens_decoder": {
     "0": {
-      "content": "<s>",
+      "content": "[PAD]",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
@@ -10,7 +9,7 @@
       "special": true
     },
     "1": {
-      "content": "</s>",
+      "content": "[UNK]",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
@@ -18,7 +17,7 @@
       "special": true
     },
     "2": {
-      "content": "<usr>",
+      "content": "[CLS]",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
@@ -26,7 +25,7 @@
       "special": true
     },
     "3": {
-      "content": "<pad>",
+      "content": "[SEP]",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
@@ -34,2982 +33,14 @@
       "special": true
     },
     "4": {
-      "content": "<sys>",
+      "content": "[MASK]",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "5": {
-      "content": "<unk>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "6": {
-      "content": "<mask>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "7": {
-      "content": "<d>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "8": {
-      "content": "</d>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "9": {
-      "content": "<unused0>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "10": {
-      "content": "<unused1>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "11": {
-      "content": "<unused2>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "12": {
-      "content": "<unused3>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "13": {
-      "content": "<unused4>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "14": {
-      "content": "<unused5>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "15": {
-      "content": "<unused6>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "16": {
-      "content": "<unused7>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "17": {
-      "content": "<unused8>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "18": {
-      "content": "<unused9>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "19": {
-      "content": "<unused10>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "20": {
-      "content": "<unused11>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "21": {
-      "content": "<unused12>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "22": {
-      "content": "<unused13>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "23": {
-      "content": "<unused14>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "24": {
-      "content": "<unused15>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "25": {
-      "content": "<unused16>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "26": {
-      "content": "<unused17>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "27": {
-      "content": "<unused18>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "28": {
-      "content": "<unused19>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "29": {
-      "content": "<unused20>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "30": {
-      "content": "<unused21>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "31": {
-      "content": "<unused22>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "32": {
-      "content": "<unused23>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "33": {
-      "content": "<unused24>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "34": {
-      "content": "<unused25>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "35": {
-      "content": "<unused26>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "36": {
-      "content": "<unused27>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "37": {
-      "content": "<unused28>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "38": {
-      "content": "<unused29>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "39": {
-      "content": "<unused30>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "40": {
-      "content": "<unused31>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "41": {
-      "content": "<unused32>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "42": {
-      "content": "<unused33>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "43": {
-      "content": "<unused34>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "44": {
-      "content": "<unused35>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "45": {
-      "content": "<unused36>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "46": {
-      "content": "<unused37>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "47": {
-      "content": "<unused38>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "48": {
-      "content": "<unused39>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "49": {
-      "content": "<unused40>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "50": {
-      "content": "<unused41>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "51": {
-      "content": "<unused42>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "52": {
-      "content": "<unused43>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "53": {
-      "content": "<unused44>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "54": {
-      "content": "<unused45>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "55": {
-      "content": "<unused46>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "56": {
-      "content": "<unused47>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "57": {
-      "content": "<unused48>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "58": {
-      "content": "<unused49>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "59": {
-      "content": "<unused50>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "60": {
-      "content": "<unused51>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "61": {
-      "content": "<unused52>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "62": {
-      "content": "<unused53>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "63": {
-      "content": "<unused54>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "64": {
-      "content": "<unused55>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "65": {
-      "content": "<unused56>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "66": {
-      "content": "<unused57>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "67": {
-      "content": "<unused58>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "68": {
-      "content": "<unused59>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "69": {
-      "content": "<unused60>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "70": {
-      "content": "<unused61>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "71": {
-      "content": "<unused62>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "72": {
-      "content": "<unused63>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "73": {
-      "content": "<unused64>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "74": {
-      "content": "<unused65>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "75": {
-      "content": "<unused66>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "76": {
-      "content": "<unused67>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "77": {
-      "content": "<unused68>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "78": {
-      "content": "<unused69>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "79": {
-      "content": "<unused70>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "80": {
-      "content": "<unused71>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "81": {
-      "content": "<unused72>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "82": {
-      "content": "<unused73>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "83": {
-      "content": "<unused74>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "84": {
-      "content": "<unused75>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "85": {
-      "content": "<unused76>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "86": {
-      "content": "<unused77>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "87": {
-      "content": "<unused78>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "88": {
-      "content": "<unused79>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "89": {
-      "content": "<unused80>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "90": {
-      "content": "<unused81>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "91": {
-      "content": "<unused82>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "92": {
-      "content": "<unused83>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "93": {
-      "content": "<unused84>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "94": {
-      "content": "<unused85>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "95": {
-      "content": "<unused86>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "96": {
-      "content": "<unused87>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "97": {
-      "content": "<unused88>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "98": {
-      "content": "<unused89>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "99": {
-      "content": "<unused90>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "100": {
-      "content": "<unused91>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "101": {
-      "content": "<unused92>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "102": {
-      "content": "<unused93>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "103": {
-      "content": "<unused94>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "104": {
-      "content": "<unused95>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "105": {
-      "content": "<unused96>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "106": {
-      "content": "<unused97>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "107": {
-      "content": "<unused98>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "108": {
-      "content": "<unused99>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "109": {
-      "content": ":-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "110": {
-      "content": ":)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "111": {
-      "content": "-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "112": {
-      "content": "(-:",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "113": {
-      "content": "(:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "114": {
-      "content": "(:-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "115": {
-      "content": "-}",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "116": {
-      "content": "8-O",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "117": {
-      "content": "'-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "118": {
-      "content": ":-#",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "119": {
-      "content": ":-*",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "120": {
-      "content": ":-/",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "121": {
-      "content": ":->",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "122": {
-      "content": ":-@",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "123": {
-      "content": ":-d",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "124": {
-      "content": ":-V",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "125": {
-      "content": ":-X",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "126": {
-      "content": ":-\\",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "127": {
-      "content": ":-]",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "128": {
-      "content": ";-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "129": {
-      "content": ">;->",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "130": {
-      "content": ";^)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "131": {
-      "content": "%-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "132": {
-      "content": "):-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "133": {
-      "content": "3:]",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "134": {
-      "content": ":-&",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "135": {
-      "content": "8:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "136": {
-      "content": ":-)8<",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "137": {
-      "content": ":-O",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "138": {
-      "content": ":-6",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "139": {
-      "content": "+:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "140": {
-      "content": "O:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "141": {
-      "content": ":-<",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "142": {
-      "content": ":-?",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "143": {
-      "content": ":-E",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "144": {
-      "content": ":-Q",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "145": {
-      "content": ":-}X",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "146": {
-      "content": ":-[",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "147": {
-      "content": ":-a",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "148": {
-      "content": ":-{",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "149": {
-      "content": ":-{}",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "150": {
-      "content": ":^)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "151": {
-      "content": "<:-l",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "152": {
-      "content": ":=)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "153": {
-      "content": ">:->",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "154": {
-      "content": ">:-l",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "155": {
-      "content": "@:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "156": {
-      "content": "@:-}",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "157": {
-      "content": "C=:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "158": {
-      "content": "X:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "159": {
-      "content": "[:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "160": {
-      "content": "[:]",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "161": {
-      "content": "{:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "162": {
-      "content": "l^o",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "163": {
-      "content": "}:^#)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "164": {
-      "content": ":-(=)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "165": {
-      "content": "O-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "166": {
-      "content": ":-3",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "167": {
-      "content": ":=",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "168": {
-      "content": ":-\"",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "169": {
-      "content": "P-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "170": {
-      "content": "?-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "171": {
-      "content": "d:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "172": {
-      "content": ":8)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "173": {
-      "content": ":-7",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "174": {
-      "content": "):-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "175": {
-      "content": ":/\\)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "176": {
-      "content": "8(:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "177": {
-      "content": "([(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "178": {
-      "content": ":-(*)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "179": {
-      "content": "&-l",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "180": {
-      "content": ":-e",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "181": {
-      "content": ":(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "182": {
-      "content": ":,(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "183": {
-      "content": ":-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "184": {
-      "content": ":-P",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "185": {
-      "content": ":-S",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "186": {
-      "content": ":-C",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "187": {
-      "content": ":-r",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "188": {
-      "content": ":-t",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "189": {
-      "content": ":-W",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "190": {
-      "content": "X-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "191": {
-      "content": "l-O",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "192": {
-      "content": "l:-O",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "193": {
-      "content": "$-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "194": {
-      "content": ":-!",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "195": {
-      "content": ":----}",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "196": {
-      "content": "=:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "197": {
-      "content": "=:-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "198": {
-      "content": "3:[",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "199": {
-      "content": "8<:-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "200": {
-      "content": ":#)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "201": {
-      "content": "8-#",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "202": {
-      "content": "B-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "203": {
-      "content": "8-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "204": {
-      "content": "|-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "205": {
-      "content": "H-)",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "206": {
-      "content": "]-I",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "207": {
-      "content": "V^J",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "208": {
-      "content": "+-(",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "209": {
-      "content": "~:-P",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "210": {
-      "content": "`'",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "211": {
-      "content": "L-P",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "212": {
-      "content": "BI",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "213": {
-      "content": "O|",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "214": {
-      "content": "^^",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "215": {
-      "content": "ㅜㅜ",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "216": {
-      "content": "ㅠㅠ",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "217": {
-      "content": "ㅡㅡ",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "218": {
-      "content": "😠",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "219": {
-      "content": "👿",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "220": {
-      "content": "😧",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "221": {
-      "content": "😰",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "222": {
-      "content": "😲",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "223": {
-      "content": "😁",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "224": {
-      "content": "🐻",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "225": {
-      "content": "🐱",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "226": {
-      "content": "😹",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "227": {
-      "content": "😼",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "228": {
-      "content": "🤡",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "229": {
-      "content": "🥶",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "230": {
-      "content": "😖",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "231": {
-      "content": "😕",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "232": {
-      "content": "🐮",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "233": {
-      "content": "🤠",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "234": {
-      "content": "😿",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "235": {
-      "content": "😢",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "236": {
-      "content": "😞",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "237": {
-      "content": "😵",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "238": {
-      "content": "🐶",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "239": {
-      "content": "😓",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "240": {
-      "content": "🐲",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "241": {
-      "content": "🤤",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "242": {
-      "content": "😑",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "243": {
-      "content": "😘",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "244": {
-      "content": "😋",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "245": {
-      "content": "😱",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "246": {
-      "content": "🤮",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "247": {
-      "content": "🤭",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "248": {
-      "content": "🤕",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "249": {
-      "content": "😷",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "250": {
-      "content": "🧐",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "251": {
-      "content": "😮",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "252": {
-      "content": "🤨",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "253": {
-      "content": "🙄",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "254": {
-      "content": "😤",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "255": {
-      "content": "🤬",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "256": {
-      "content": "😂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "257": {
-      "content": "🤒",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "258": {
-      "content": "😛",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "259": {
-      "content": "😶",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "260": {
-      "content": "😨",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "261": {
-      "content": "🌛",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "262": {
-      "content": "😳",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "263": {
-      "content": "🦊",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "264": {
-      "content": "🐸",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "265": {
-      "content": "☹",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "266": {
-      "content": "☹️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "267": {
-      "content": "😦",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "268": {
-      "content": "🌝",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "269": {
-      "content": "😬",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "270": {
-      "content": "😺",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "271": {
-      "content": "😸",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "272": {
-      "content": "😀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "273": {
-      "content": "😃",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "274": {
-      "content": "😄",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "275": {
-      "content": "😅",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "276": {
-      "content": "😆",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "277": {
-      "content": "🐹",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "278": {
-      "content": "🐴",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "279": {
-      "content": "🥵",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "280": {
-      "content": "🤗",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "281": {
-      "content": "😯",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "282": {
-      "content": "😽",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "283": {
-      "content": "😗",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "284": {
-      "content": "😚",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "285": {
-      "content": "😙",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "286": {
-      "content": "🌜",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "287": {
-      "content": "🦁",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "288": {
-      "content": "😭",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "289": {
-      "content": "🤥",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "290": {
-      "content": "🤦🏿‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "291": {
-      "content": "🤦🏻‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "292": {
-      "content": "🤦🏾‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "293": {
-      "content": "🤦🏼‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "294": {
-      "content": "🤦🏽‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "295": {
-      "content": "🤦‍♂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "296": {
-      "content": "🤦🏿‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "297": {
-      "content": "🤦🏻‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "298": {
-      "content": "🤦🏾‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "299": {
-      "content": "🤦🏼‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "300": {
-      "content": "🤦🏽‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "301": {
-      "content": "🤦‍♂️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "302": {
-      "content": "🤑",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "303": {
-      "content": "🐵",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "304": {
-      "content": "🐭",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "305": {
-      "content": "🤢",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "306": {
-      "content": "🤓",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "307": {
-      "content": "😐",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "308": {
-      "content": "🌚",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "309": {
-      "content": "🐼",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "310": {
-      "content": "🥳",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "311": {
-      "content": "😔",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "312": {
-      "content": "😣",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "313": {
-      "content": "🤦",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "314": {
-      "content": "🤦🏿",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "315": {
-      "content": "🤦🏻",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "316": {
-      "content": "🤦🏾",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "317": {
-      "content": "🤦🏼",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "318": {
-      "content": "🤦🏽",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "319": {
-      "content": "🐷",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "320": {
-      "content": "🥺",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "321": {
-      "content": "😾",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "322": {
-      "content": "😡",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "323": {
-      "content": "🐰",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "324": {
-      "content": "😌",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "325": {
-      "content": "🤖",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "326": {
-      "content": "😥",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "327": {
-      "content": "🤫",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "328": {
-      "content": "😴",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "329": {
-      "content": "😪",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "330": {
-      "content": "🙁",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "331": {
-      "content": "🙂",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "332": {
-      "content": "😻",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "333": {
-      "content": "☺",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "334": {
-      "content": "☺️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "335": {
-      "content": "🥰",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "336": {
-      "content": "😇",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "337": {
-      "content": "😍",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "338": {
-      "content": "😈",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "339": {
-      "content": "😊",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "340": {
-      "content": "😎",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "341": {
-      "content": "😏",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "342": {
-      "content": "🤧",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "343": {
-      "content": "😝",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "344": {
-      "content": "🌞",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "345": {
-      "content": "🤔",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "346": {
-      "content": "🐯",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "347": {
-      "content": "😫",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "348": {
-      "content": "😒",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "349": {
-      "content": "🦄",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "350": {
-      "content": "🙃",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "351": {
-      "content": "🙀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "352": {
-      "content": "😩",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "353": {
-      "content": "🌬",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "354": {
-      "content": "🌬️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "355": {
-      "content": "😉",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "356": {
-      "content": "😜",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "357": {
-      "content": "🐺",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "358": {
-      "content": "🤦🏿‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "359": {
-      "content": "🤦🏻‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "360": {
-      "content": "🤦🏾‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "361": {
-      "content": "🤦🏼‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "362": {
-      "content": "🤦🏽‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "363": {
-      "content": "🤦‍♀",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "364": {
-      "content": "🤦🏿‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "365": {
-      "content": "🤦🏻‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "366": {
-      "content": "🤦🏾‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "367": {
-      "content": "🤦🏼‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "368": {
-      "content": "🤦🏽‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "369": {
-      "content": "🤦‍♀️",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "370": {
-      "content": "🥴",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "371": {
-      "content": "😟",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "372": {
-      "content": "🥱",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "373": {
-      "content": "🤪",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "374": {
-      "content": "🤐",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "51200": {
-      "content": "<|endoftext|>",
-      "lstrip": false,
-      "normalized": false,
-      "rstrip": false,
-      "single_word": false,
-      "special": true
-    },
-    "51201": {
+    "35000": {
       "content": "전세자금보증",
       "lstrip": false,
       "normalized": true,
@@ -3017,7 +48,7 @@
       "single_word": false,
       "special": false
     },
-    "51202": {
+    "35001": {
       "content": "국민행복기금채무조정",
       "lstrip": false,
       "normalized": true,
@@ -3025,7 +56,7 @@
       "single_word": false,
       "special": false
     },
-    "51203": {
+    "35002": {
       "content": "신용회복위원회채무조정",
       "lstrip": false,
       "normalized": true,
@@ -3033,7 +64,7 @@
       "single_word": false,
       "special": false
     },
-    "51204": {
+    "35003": {
       "content": "가사·간병방문지원사업",
       "lstrip": false,
       "normalized": true,
@@ -3041,7 +72,7 @@
       "single_word": false,
       "special": false
     },
-    "51205": {
+    "35004": {
       "content": "쌀할인판매(양곡할인)",
       "lstrip": false,
       "normalized": true,
@@ -3049,7 +80,7 @@
       "single_word": false,
       "special": false
     },
-    "51206": {
+    "35005": {
       "content": "저소득지역가입자국민연금보험료지원",
       "lstrip": false,
       "normalized": true,
@@ -3057,7 +88,7 @@
       "single_word": false,
       "special": false
     },
-    "51207": {
+    "35006": {
       "content": "통합문화이용권(문화누리카드)",
       "lstrip": false,
       "normalized": true,
@@ -3065,7 +96,7 @@
       "single_word": false,
       "special": false
     },
-    "51208": {
+    "35007": {
       "content": "스포츠강좌이용권",
       "lstrip": false,
       "normalized": true,
@@ -3073,7 +104,7 @@
       "single_word": false,
       "special": false
     },
-    "51209": {
+    "35008": {
       "content": "산림복지서비스이용권",
       "lstrip": false,
       "normalized": true,
@@ -3081,7 +112,7 @@
       "single_word": false,
       "special": false
     },
-    "51210": {
+    "35009": {
       "content": "서민금융진흥원소액보험(한부모가정의료보험)",
       "lstrip": false,
       "normalized": true,
@@ -3089,7 +120,7 @@
       "single_word": false,
       "special": false
     },
-    "51211": {
+    "35010": {
       "content": "평생교육바우처",
       "lstrip": false,
       "normalized": true,
@@ -3097,7 +128,7 @@
       "single_word": false,
       "special": false
     },
-    "51212": {
+    "35011": {
       "content": "실업급여",
       "lstrip": false,
       "normalized": true,
@@ -3105,7 +136,7 @@
       "single_word": false,
       "special": false
     },
-    "51213": {
+    "35012": {
       "content": "국민연금실업크레딧",
       "lstrip": false,
       "normalized": true,
@@ -3113,7 +144,7 @@
       "single_word": false,
       "special": false
     },
-    "51214": {
+    "35013": {
       "content": "건강보험임의계속가입제도",
       "lstrip": false,
       "normalized": true,
@@ -3121,7 +152,7 @@
       "single_word": false,
       "special": false
     },
-    "51215": {
+    "35014": {
       "content": "국민취업지원제도",
       "lstrip": false,
       "normalized": true,
@@ -3129,7 +160,7 @@
       "single_word": false,
       "special": false
     },
-    "51216": {
+    "35015": {
       "content": "국민내일배움카드제",
       "lstrip": false,
       "normalized": true,
@@ -3137,7 +168,7 @@
       "single_word": false,
       "special": false
     },
-    "51217": {
+    "35016": {
       "content": "허그일자리지원프로그램",
       "lstrip": false,
       "normalized": true,
@@ -3145,7 +176,7 @@
       "single_word": false,
       "special": false
     },
-    "51218": {
+    "35017": {
       "content": "자활근로",
       "lstrip": false,
       "normalized": true,
@@ -3153,7 +184,7 @@
       "single_word": false,
       "special": false
     },
-    "51219": {
+    "35018": {
       "content": "정부지원일자리제공",
       "lstrip": false,
       "normalized": true,
@@ -3161,7 +192,7 @@
       "single_word": false,
       "special": false
     },
-    "51220": {
+    "35019": {
       "content": "희망저축계좌(Ⅰ,Ⅱ)",
       "lstrip": false,
       "normalized": true,
@@ -3169,7 +200,7 @@
       "single_word": false,
       "special": false
     },
-    "51221": {
+    "35020": {
       "content": "청년내일저축계좌",
       "lstrip": false,
       "normalized": true,
@@ -3177,7 +208,7 @@
       "single_word": false,
       "special": false
     },
-    "51222": {
+    "35021": {
       "content": "근로장려금",
       "lstrip": false,
       "normalized": true,
@@ -3185,7 +216,7 @@
       "single_word": false,
       "special": false
     },
-    "51223": {
+    "35022": {
       "content": "자녀장려금",
       "lstrip": false,
       "normalized": true,
@@ -3193,7 +224,7 @@
       "single_word": false,
       "special": false
     },
-    "51224": {
+    "35023": {
       "content": "여성경제활동촉진지원사업",
       "lstrip": false,
       "normalized": true,
@@ -3201,7 +232,7 @@
       "single_word": false,
       "special": false
     },
-    "51225": {
+    "35024": {
       "content": "여성기업종합지원센터운영",
       "lstrip": false,
       "normalized": true,
@@ -3209,7 +240,7 @@
       "single_word": false,
       "special": false
     },
-    "51226": {
+    "35025": {
       "content": "여성특화제품해외진출지원",
       "lstrip": false,
       "normalized": true,
@@ -3217,7 +248,7 @@
       "single_word": false,
       "special": false
     },
-    "51227": {
+    "35026": {
       "content": "여성기업확인서발급",
       "lstrip": false,
       "normalized": true,
@@ -3225,7 +256,7 @@
       "single_word": false,
       "special": false
     },
-    "51228": {
+    "35027": {
       "content": "여성기업판로역량강화지원",
       "lstrip": false,
       "normalized": true,
@@ -3233,7 +264,7 @@
       "single_word": false,
       "special": false
     },
-    "51229": {
+    "35028": {
       "content": "여성창업액셀러레이팅",
       "lstrip": false,
       "normalized": true,
@@ -3241,7 +272,7 @@
       "single_word": false,
       "special": false
     },
-    "51230": {
+    "35029": {
       "content": "중장년기술창업센터지원",
       "lstrip": false,
       "normalized": true,
@@ -3249,7 +280,7 @@
       "single_word": false,
       "special": false
     },
-    "51231": {
+    "35030": {
       "content": "신중년경력형일자리",
       "lstrip": false,
       "normalized": true,
@@ -3257,7 +288,7 @@
       "single_word": false,
       "special": false
     },
-    "51232": {
+    "35031": {
       "content": "신중년적합직무고용장려금",
       "lstrip": false,
       "normalized": true,
@@ -3265,7 +296,7 @@
       "single_word": false,
       "special": false
     },
-    "51233": {
+    "35032": {
       "content": "고령자계속고용장려금",
       "lstrip": false,
       "normalized": true,
@@ -3273,7 +304,7 @@
       "single_word": false,
       "special": false
     },
-    "51234": {
+    "35033": {
       "content": "고령자고용지원금",
       "lstrip": false,
       "normalized": true,
@@ -3281,7 +312,7 @@
       "single_word": false,
       "special": false
     },
-    "51235": {
+    "35034": {
       "content": "현장실습지원금",
       "lstrip": false,
       "normalized": true,
@@ -3289,7 +320,7 @@
       "single_word": false,
       "special": false
     },
-    "51236": {
+    "35035": {
       "content": "현장실습기업현장교육지원",
       "lstrip": false,
       "normalized": true,
@@ -3297,7 +328,7 @@
       "single_word": false,
       "special": false
     },
-    "51237": {
+    "35036": {
       "content": "고교취업연계장려금",
       "lstrip": false,
       "normalized": true,
@@ -3305,7 +336,7 @@
       "single_word": false,
       "special": false
     },
-    "51238": {
+    "35037": {
       "content": "고졸자후속관리지원모델개발사업",
       "lstrip": false,
       "normalized": true,
@@ -3313,7 +344,7 @@
       "single_word": false,
       "special": false
     },
-    "51239": {
+    "35038": {
       "content": "중앙취업지원센터운영",
       "lstrip": false,
       "normalized": true,
@@ -3321,7 +352,7 @@
       "single_word": false,
       "special": false
     },
-    "51240": {
+    "35039": {
       "content": "일학습병행제",
       "lstrip": false,
       "normalized": true,
@@ -3329,7 +360,7 @@
       "single_word": false,
       "special": false
     },
-    "51241": {
+    "35040": {
       "content": "내일이룸학교",
       "lstrip": false,
       "normalized": true,
@@ -3337,7 +368,7 @@
       "single_word": false,
       "special": false
     },
-    "51242": {
+    "35041": {
       "content": "산업계주도청년맞춤형훈련",
       "lstrip": false,
       "normalized": true,
@@ -3345,7 +376,7 @@
       "single_word": false,
       "special": false
     },
-    "51243": {
+    "35042": {
       "content": "첨단산업디지털핵심실무인재양성훈련(K-DigitalTraining)",
       "lstrip": false,
       "normalized": true,
@@ -3353,7 +384,7 @@
       "single_word": false,
       "special": false
     },
-    "51244": {
+    "35043": {
       "content": "창업기숙사사업",
       "lstrip": false,
       "normalized": true,
@@ -3361,7 +392,7 @@
       "single_word": false,
       "special": false
     },
-    "51245": {
+    "35044": {
       "content": "해외취업지원",
       "lstrip": false,
       "normalized": true,
@@ -3369,7 +400,7 @@
       "single_word": false,
       "special": false
     },
-    "51246": {
+    "35045": {
       "content": "청년일자리도약장려금",
       "lstrip": false,
       "normalized": true,
@@ -3377,7 +408,7 @@
       "single_word": false,
       "special": false
     },
-    "51247": {
+    "35046": {
       "content": "청년내일채움공제",
       "lstrip": false,
       "normalized": true,
@@ -3385,7 +416,7 @@
       "single_word": false,
       "special": false
     },
-    "51248": {
+    "35047": {
       "content": "난임부부시술비지원",
       "lstrip": false,
       "normalized": true,
@@ -3393,7 +424,7 @@
       "single_word": false,
       "special": false
     },
-    "51249": {
+    "35048": {
       "content": "고위험임산부의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -3401,7 +432,7 @@
       "single_word": false,
       "special": false
     },
-    "51250": {
+    "35049": {
       "content": "표준모자보건수첩제공",
       "lstrip": false,
       "normalized": true,
@@ -3409,7 +440,7 @@
       "single_word": false,
       "special": false
     },
-    "51251": {
+    "35050": {
       "content": "임산부철분제·엽산제지원",
       "lstrip": false,
       "normalized": true,
@@ -3417,7 +448,7 @@
       "single_word": false,
       "special": false
     },
-    "51252": {
+    "35051": {
       "content": "임산부인플루엔자국가예방접종지원",
       "lstrip": false,
       "normalized": true,
@@ -3425,7 +456,7 @@
       "single_word": false,
       "special": false
     },
-    "51253": {
+    "35052": {
       "content": "영양플러스",
       "lstrip": false,
       "normalized": true,
@@ -3433,7 +464,7 @@
       "single_word": false,
       "special": false
     },
-    "51254": {
+    "35053": {
       "content": "임신·출산진료비(의료급여)",
       "lstrip": false,
       "normalized": true,
@@ -3441,7 +472,7 @@
       "single_word": false,
       "special": false
     },
-    "51255": {
+    "35054": {
       "content": "요양비(출산비)지원(요양기관외출산시출산비지급)",
       "lstrip": false,
       "normalized": true,
@@ -3449,7 +480,7 @@
       "single_word": false,
       "special": false
     },
-    "51256": {
+    "35055": {
       "content": "출산비용지원",
       "lstrip": false,
       "normalized": true,
@@ -3457,7 +488,7 @@
       "single_word": false,
       "special": false
     },
-    "51257": {
+    "35056": {
       "content": "청소년산모임신·출산의료비지원(국민행복카드)",
       "lstrip": false,
       "normalized": true,
@@ -3465,7 +496,7 @@
       "single_word": false,
       "special": false
     },
-    "51258": {
+    "35057": {
       "content": "건강보험임신·출산진료비(국민행복카드)",
       "lstrip": false,
       "normalized": true,
@@ -3473,7 +504,7 @@
       "single_word": false,
       "special": false
     },
-    "51259": {
+    "35058": {
       "content": "첫만남이용권(국민행복카드)",
       "lstrip": false,
       "normalized": true,
@@ -3481,7 +512,7 @@
       "single_word": false,
       "special": false
     },
-    "51260": {
+    "35059": {
       "content": "산모·신생아건강관리지원사업",
       "lstrip": false,
       "normalized": true,
@@ -3489,7 +520,7 @@
       "single_word": false,
       "special": false
     },
-    "51261": {
+    "35060": {
       "content": "입양숙려기간모자지원",
       "lstrip": false,
       "normalized": true,
@@ -3497,7 +528,7 @@
       "single_word": false,
       "special": false
     },
-    "51262": {
+    "35061": {
       "content": "국민연금출산크레딧",
       "lstrip": false,
       "normalized": true,
@@ -3505,7 +536,7 @@
       "single_word": false,
       "special": false
     },
-    "51263": {
+    "35062": {
       "content": "출산전후(유산·사산)휴가급여지원",
       "lstrip": false,
       "normalized": true,
@@ -3513,7 +544,7 @@
       "single_word": false,
       "special": false
     },
-    "51264": {
+    "35063": {
       "content": "고용보험미적용자출산급여지원",
       "lstrip": false,
       "normalized": true,
@@ -3521,7 +552,7 @@
       "single_word": false,
       "special": false
     },
-    "51265": {
+    "35064": {
       "content": "배우자출산휴가급여지원",
       "lstrip": false,
       "normalized": true,
@@ -3529,7 +560,7 @@
       "single_word": false,
       "special": false
     },
-    "51266": {
+    "35065": {
       "content": "육아휴직급여지원",
       "lstrip": false,
       "normalized": true,
@@ -3537,7 +568,7 @@
       "single_word": false,
       "special": false
     },
-    "51267": {
+    "35066": {
       "content": "육아기근로시간단축지원",
       "lstrip": false,
       "normalized": true,
@@ -3545,7 +576,7 @@
       "single_word": false,
       "special": false
     },
-    "51268": {
+    "35067": {
       "content": "출산육아기고용안정장려금(대체인력지원금)",
       "lstrip": false,
       "normalized": true,
@@ -3553,7 +584,7 @@
       "single_word": false,
       "special": false
     },
-    "51269": {
+    "35068": {
       "content": "출산육아기고용안정장려금(육아휴직지원금,육아기근로시간단축지원금)",
       "lstrip": false,
       "normalized": true,
@@ -3561,7 +592,7 @@
       "single_word": false,
       "special": false
     },
-    "51270": {
+    "35069": {
       "content": "직장어린이집설치지원",
       "lstrip": false,
       "normalized": true,
@@ -3569,7 +600,7 @@
       "single_word": false,
       "special": false
     },
-    "51271": {
+    "35070": {
       "content": "만0~2세보육료지원",
       "lstrip": false,
       "normalized": true,
@@ -3577,7 +608,7 @@
       "single_word": false,
       "special": false
     },
-    "51272": {
+    "35071": {
       "content": "만3~5세누리과정지원",
       "lstrip": false,
       "normalized": true,
@@ -3585,7 +616,7 @@
       "single_word": false,
       "special": false
     },
-    "51273": {
+    "35072": {
       "content": "가정양육수당지원",
       "lstrip": false,
       "normalized": true,
@@ -3593,7 +624,7 @@
       "single_word": false,
       "special": false
     },
-    "51274": {
+    "35073": {
       "content": "아동수당",
       "lstrip": false,
       "normalized": true,
@@ -3601,7 +632,7 @@
       "single_word": false,
       "special": false
     },
-    "51275": {
+    "35074": {
       "content": "부모급여",
       "lstrip": false,
       "normalized": true,
@@ -3609,7 +640,7 @@
       "single_word": false,
       "special": false
     },
-    "51276": {
+    "35075": {
       "content": "청소년부모아동양육비지원",
       "lstrip": false,
       "normalized": true,
@@ -3617,7 +648,7 @@
       "single_word": false,
       "special": false
     },
-    "51277": {
+    "35076": {
       "content": "아이돌봄서비스",
       "lstrip": false,
       "normalized": true,
@@ -3625,7 +656,7 @@
       "single_word": false,
       "special": false
     },
-    "51278": {
+    "35077": {
       "content": "그밖의연장형보육료지원(어린이집이용아동)",
       "lstrip": false,
       "normalized": true,
@@ -3633,7 +664,7 @@
       "single_word": false,
       "special": false
     },
-    "51279": {
+    "35078": {
       "content": "시간제보육지원",
       "lstrip": false,
       "normalized": true,
@@ -3641,7 +672,7 @@
       "single_word": false,
       "special": false
     },
-    "51280": {
+    "35079": {
       "content": "방과후보육료지원",
       "lstrip": false,
       "normalized": true,
@@ -3649,7 +680,7 @@
       "single_word": false,
       "special": false
     },
-    "51281": {
+    "35080": {
       "content": "입양아동지원",
       "lstrip": false,
       "normalized": true,
@@ -3657,7 +688,7 @@
       "single_word": false,
       "special": false
     },
-    "51282": {
+    "35081": {
       "content": "육아종합지원센터",
       "lstrip": false,
       "normalized": true,
@@ -3665,7 +696,7 @@
       "single_word": false,
       "special": false
     },
-    "51283": {
+    "35082": {
       "content": "공동육아나눔터",
       "lstrip": false,
       "normalized": true,
@@ -3673,7 +704,7 @@
       "single_word": false,
       "special": false
     },
-    "51284": {
+    "35083": {
       "content": "선천성대사이상검사및환아관리",
       "lstrip": false,
       "normalized": true,
@@ -3681,7 +712,7 @@
       "single_word": false,
       "special": false
     },
-    "51285": {
+    "35084": {
       "content": "선천성난청검사및보청기지원",
       "lstrip": false,
       "normalized": true,
@@ -3689,7 +720,7 @@
       "single_word": false,
       "special": false
     },
-    "51286": {
+    "35085": {
       "content": "미숙아및선천성이상아의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -3697,7 +728,7 @@
       "single_word": false,
       "special": false
     },
-    "51287": {
+    "35086": {
       "content": "조산아및저체중출생아본인부담금경감",
       "lstrip": false,
       "normalized": true,
@@ -3705,7 +736,7 @@
       "single_word": false,
       "special": false
     },
-    "51288": {
+    "35087": {
       "content": "저소득층기저귀·조제분유지원",
       "lstrip": false,
       "normalized": true,
@@ -3713,7 +744,7 @@
       "single_word": false,
       "special": false
     },
-    "51289": {
+    "35088": {
       "content": "영유아건강검진",
       "lstrip": false,
       "normalized": true,
@@ -3721,7 +752,7 @@
       "single_word": false,
       "special": false
     },
-    "51290": {
+    "35089": {
       "content": "취학전아동실명예방",
       "lstrip": false,
       "normalized": true,
@@ -3729,7 +760,7 @@
       "single_word": false,
       "special": false
     },
-    "51291": {
+    "35090": {
       "content": "어린이국가예방접종지원사업",
       "lstrip": false,
       "normalized": true,
@@ -3737,7 +768,7 @@
       "single_word": false,
       "special": false
     },
-    "51292": {
+    "35091": {
       "content": "아동입원진료비지원",
       "lstrip": false,
       "normalized": true,
@@ -3745,7 +776,7 @@
       "single_word": false,
       "special": false
     },
-    "51293": {
+    "35092": {
       "content": "어린이불소도포",
       "lstrip": false,
       "normalized": true,
@@ -3753,7 +784,7 @@
       "single_word": false,
       "special": false
     },
-    "51294": {
+    "35093": {
       "content": "초등돌봄교실",
       "lstrip": false,
       "normalized": true,
@@ -3761,7 +792,7 @@
       "single_word": false,
       "special": false
     },
-    "51295": {
+    "35094": {
       "content": "다함께돌봄사업",
       "lstrip": false,
       "normalized": true,
@@ -3769,7 +800,7 @@
       "single_word": false,
       "special": false
     },
-    "51296": {
+    "35095": {
       "content": "지역아동센터지원",
       "lstrip": false,
       "normalized": true,
@@ -3777,7 +808,7 @@
       "single_word": false,
       "special": false
     },
-    "51297": {
+    "35096": {
       "content": "청소년방과후아카데미운영지원",
       "lstrip": false,
       "normalized": true,
@@ -3785,7 +816,7 @@
       "single_word": false,
       "special": false
     },
-    "51298": {
+    "35097": {
       "content": "아동통합서비스지원(드림스타트사업)",
       "lstrip": false,
       "normalized": true,
@@ -3793,7 +824,7 @@
       "single_word": false,
       "special": false
     },
-    "51299": {
+    "35098": {
       "content": "실종아동보호및지원",
       "lstrip": false,
       "normalized": true,
@@ -3801,7 +832,7 @@
       "single_word": false,
       "special": false
     },
-    "51300": {
+    "35099": {
       "content": "가정위탁아동지원(드림스타트사업)",
       "lstrip": false,
       "normalized": true,
@@ -3809,7 +840,7 @@
       "single_word": false,
       "special": false
     },
-    "51301": {
+    "35100": {
       "content": "학대피해아동보호및지원",
       "lstrip": false,
       "normalized": true,
@@ -3817,7 +848,7 @@
       "single_word": false,
       "special": false
     },
-    "51302": {
+    "35101": {
       "content": "경계선지능아동맞춤형사례관리서비스",
       "lstrip": false,
       "normalized": true,
@@ -3825,7 +856,7 @@
       "single_word": false,
       "special": false
     },
-    "51303": {
+    "35102": {
       "content": "아동발달지원계좌(디딤씨앗통장)",
       "lstrip": false,
       "normalized": true,
@@ -3833,7 +864,7 @@
       "single_word": false,
       "special": false
     },
-    "51304": {
+    "35103": {
       "content": "자립준비청년(보호종료아동)자립수당",
       "lstrip": false,
       "normalized": true,
@@ -3841,7 +872,7 @@
       "single_word": false,
       "special": false
     },
-    "51305": {
+    "35104": {
       "content": "자립지원전담기관운영",
       "lstrip": false,
       "normalized": true,
@@ -3849,7 +880,7 @@
       "single_word": false,
       "special": false
     },
-    "51306": {
+    "35105": {
       "content": "청소년치료재활센터(국립중앙청소년디딤센터,국립대구청소년디딤센터)운영",
       "lstrip": false,
       "normalized": true,
@@ -3857,7 +888,7 @@
       "single_word": false,
       "special": false
     },
-    "51307": {
+    "35106": {
       "content": "청소년동반자프로그램",
       "lstrip": false,
       "normalized": true,
@@ -3865,7 +896,7 @@
       "single_word": false,
       "special": false
     },
-    "51308": {
+    "35107": {
       "content": "학교밖청소년지원",
       "lstrip": false,
       "normalized": true,
@@ -3873,7 +904,7 @@
       "single_word": false,
       "special": false
     },
-    "51309": {
+    "35108": {
       "content": "학교밖청소년건강검진",
       "lstrip": false,
       "normalized": true,
@@ -3881,7 +912,7 @@
       "single_word": false,
       "special": false
     },
-    "51310": {
+    "35109": {
       "content": "위기청소년특별지원",
       "lstrip": false,
       "normalized": true,
@@ -3889,7 +920,7 @@
       "single_word": false,
       "special": false
     },
-    "51311": {
+    "35110": {
       "content": "청소년성문화센터",
       "lstrip": false,
       "normalized": true,
@@ -3897,7 +928,7 @@
       "single_word": false,
       "special": false
     },
-    "51312": {
+    "35111": {
       "content": "성매매피해아동,청소년종합지원체계운영",
       "lstrip": false,
       "normalized": true,
@@ -3905,7 +936,7 @@
       "single_word": false,
       "special": false
     },
-    "51313": {
+    "35112": {
       "content": "청소년인터넷·스마트폰과의존예방및해소지원",
       "lstrip": false,
       "normalized": true,
@@ -3913,7 +944,7 @@
       "single_word": false,
       "special": false
     },
-    "51314": {
+    "35113": {
       "content": "위(Wee)프로젝트상담지원(위(Wee)클래스·위(Wee)센터·위(Wee)스쿨등)",
       "lstrip": false,
       "normalized": true,
@@ -3921,7 +952,7 @@
       "single_word": false,
       "special": false
     },
-    "51315": {
+    "35114": {
       "content": "지역사회청소년통합지원체계(청소년안전망)",
       "lstrip": false,
       "normalized": true,
@@ -3929,7 +960,7 @@
       "single_word": false,
       "special": false
     },
-    "51316": {
+    "35115": {
       "content": "청소년상담1388",
       "lstrip": false,
       "normalized": true,
@@ -3937,7 +968,7 @@
       "single_word": false,
       "special": false
     },
-    "51317": {
+    "35116": {
       "content": "청소년쉼터",
       "lstrip": false,
       "normalized": true,
@@ -3945,7 +976,7 @@
       "single_word": false,
       "special": false
     },
-    "51318": {
+    "35117": {
       "content": "청소년자립지원관",
       "lstrip": false,
       "normalized": true,
@@ -3953,7 +984,7 @@
       "single_word": false,
       "special": false
     },
-    "51319": {
+    "35118": {
       "content": "청소년국제교류",
       "lstrip": false,
       "normalized": true,
@@ -3961,7 +992,7 @@
       "single_word": false,
       "special": false
     },
-    "51320": {
+    "35119": {
       "content": "지방청소년활동진흥센터운영",
       "lstrip": false,
       "normalized": true,
@@ -3969,7 +1000,7 @@
       "single_word": false,
       "special": false
     },
-    "51321": {
+    "35120": {
       "content": "청소년활동지원",
       "lstrip": false,
       "normalized": true,
@@ -3977,7 +1008,7 @@
       "single_word": false,
       "special": false
     },
-    "51322": {
+    "35121": {
       "content": "이주배경청소년지원",
       "lstrip": false,
       "normalized": true,
@@ -3985,7 +1016,7 @@
       "single_word": false,
       "special": false
     },
-    "51323": {
+    "35122": {
       "content": "기초생활보장(교육급여)",
       "lstrip": false,
       "normalized": true,
@@ -3993,7 +1024,7 @@
       "single_word": false,
       "special": false
     },
-    "51324": {
+    "35123": {
       "content": "고교학비지원",
       "lstrip": false,
       "normalized": true,
@@ -4001,7 +1032,7 @@
       "single_word": false,
       "special": false
     },
-    "51325": {
+    "35124": {
       "content": "급식비지원",
       "lstrip": false,
       "normalized": true,
@@ -4009,7 +1040,7 @@
       "single_word": false,
       "special": false
     },
-    "51326": {
+    "35125": {
       "content": "방과후학교자유수강권",
       "lstrip": false,
       "normalized": true,
@@ -4017,7 +1048,7 @@
       "single_word": false,
       "special": false
     },
-    "51327": {
+    "35126": {
       "content": "초·중·고학생교육정보화지원(PC,인터넷통신비)",
       "lstrip": false,
       "normalized": true,
@@ -4025,7 +1056,7 @@
       "single_word": false,
       "special": false
     },
-    "51328": {
+    "35127": {
       "content": "학교우유급식",
       "lstrip": false,
       "normalized": true,
@@ -4033,7 +1064,7 @@
       "single_word": false,
       "special": false
     },
-    "51329": {
+    "35128": {
       "content": "아동급식지원",
       "lstrip": false,
       "normalized": true,
@@ -4041,7 +1072,7 @@
       "single_word": false,
       "special": false
     },
-    "51330": {
+    "35129": {
       "content": "여성청소년생리용품바우처지원",
       "lstrip": false,
       "normalized": true,
@@ -4049,7 +1080,7 @@
       "single_word": false,
       "special": false
     },
-    "51331": {
+    "35130": {
       "content": "HPV국가예방접종지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4057,7 +1088,7 @@
       "single_word": false,
       "special": false
     },
-    "51332": {
+    "35131": {
       "content": "교육복지우선지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4065,7 +1096,7 @@
       "single_word": false,
       "special": false
     },
-    "51333": {
+    "35132": {
       "content": "복권기금꿈사다리장학사업",
       "lstrip": false,
       "normalized": true,
@@ -4073,7 +1104,7 @@
       "single_word": false,
       "special": false
     },
-    "51334": {
+    "35133": {
       "content": "우수고등학생해외유학장학금(드림장학금)",
       "lstrip": false,
       "normalized": true,
@@ -4081,7 +1112,7 @@
       "single_word": false,
       "special": false
     },
-    "51335": {
+    "35134": {
       "content": "고졸후학습자장학금(희망사다리Ⅱ유형)",
       "lstrip": false,
       "normalized": true,
@@ -4089,7 +1120,7 @@
       "single_word": false,
       "special": false
     },
-    "51336": {
+    "35135": {
       "content": "국가장학금[Ⅰ,Ⅱ유형,다자녀(세자녀이상)]",
       "lstrip": false,
       "normalized": true,
@@ -4097,7 +1128,7 @@
       "single_word": false,
       "special": false
     },
-    "51337": {
+    "35136": {
       "content": "이공계우수학생국가장학사업",
       "lstrip": false,
       "normalized": true,
@@ -4105,7 +1136,7 @@
       "single_word": false,
       "special": false
     },
-    "51338": {
+    "35137": {
       "content": "국가근로장학금",
       "lstrip": false,
       "normalized": true,
@@ -4113,7 +1144,7 @@
       "single_word": false,
       "special": false
     },
-    "51339": {
+    "35138": {
       "content": "예술체육비전장학금",
       "lstrip": false,
       "normalized": true,
@@ -4121,7 +1152,7 @@
       "single_word": false,
       "special": false
     },
-    "51340": {
+    "35139": {
       "content": "인문100년장학금",
       "lstrip": false,
       "normalized": true,
@@ -4129,7 +1160,7 @@
       "single_word": false,
       "special": false
     },
-    "51341": {
+    "35140": {
       "content": "전문기술인재장학금",
       "lstrip": false,
       "normalized": true,
@@ -4137,7 +1168,7 @@
       "single_word": false,
       "special": false
     },
-    "51342": {
+    "35141": {
       "content": "대학생청소년교육지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4145,7 +1176,7 @@
       "single_word": false,
       "special": false
     },
-    "51343": {
+    "35142": {
       "content": "푸른등대기부장학사업",
       "lstrip": false,
       "normalized": true,
@@ -4153,7 +1184,7 @@
       "single_word": false,
       "special": false
     },
-    "51344": {
+    "35143": {
       "content": "푸른등대삼성기부장학사업",
       "lstrip": false,
       "normalized": true,
@@ -4161,7 +1192,7 @@
       "single_word": false,
       "special": false
     },
-    "51345": {
+    "35144": {
       "content": "중소기업취업연계장학사업(희망사다리Ⅰ유형)",
       "lstrip": false,
       "normalized": true,
@@ -4169,7 +1200,7 @@
       "single_word": false,
       "special": false
     },
-    "51346": {
+    "35145": {
       "content": "대학생연합생활관(은행권,고양)",
       "lstrip": false,
       "normalized": true,
@@ -4177,7 +1208,7 @@
       "single_word": false,
       "special": false
     },
-    "51347": {
+    "35146": {
       "content": "대학생연합생활관(롯데,마포)",
       "lstrip": false,
       "normalized": true,
@@ -4185,7 +1216,7 @@
       "single_word": false,
       "special": false
     },
-    "51348": {
+    "35147": {
       "content": "취업후상환학자금대출",
       "lstrip": false,
       "normalized": true,
@@ -4193,7 +1224,7 @@
       "single_word": false,
       "special": false
     },
-    "51349": {
+    "35148": {
       "content": "일반상환학자금대출",
       "lstrip": false,
       "normalized": true,
@@ -4201,7 +1232,7 @@
       "single_word": false,
       "special": false
     },
-    "51350": {
+    "35149": {
       "content": "농촌출신대학생학자금융자사업",
       "lstrip": false,
       "normalized": true,
@@ -4209,7 +1240,7 @@
       "single_word": false,
       "special": false
     },
-    "51351": {
+    "35150": {
       "content": "심신장애인학자금대출채무면제",
       "lstrip": false,
       "normalized": true,
@@ -4217,7 +1248,7 @@
       "single_word": false,
       "special": false
     },
-    "51352": {
+    "35151": {
       "content": "경제적배려대상자지원",
       "lstrip": false,
       "normalized": true,
@@ -4225,7 +1256,7 @@
       "single_word": false,
       "special": false
     },
-    "51353": {
+    "35152": {
       "content": "신체적배려대상자지원",
       "lstrip": false,
       "normalized": true,
@@ -4233,7 +1264,7 @@
       "single_word": false,
       "special": false
     },
-    "51354": {
+    "35153": {
       "content": "생계곤란병역감면제도",
       "lstrip": false,
       "normalized": true,
@@ -4241,7 +1272,7 @@
       "single_word": false,
       "special": false
     },
-    "51355": {
+    "35154": {
       "content": "건강보험제도",
       "lstrip": false,
       "normalized": true,
@@ -4249,7 +1280,7 @@
       "single_word": false,
       "special": false
     },
-    "51356": {
+    "35155": {
       "content": "건강보험산정특례",
       "lstrip": false,
       "normalized": true,
@@ -4257,7 +1288,7 @@
       "single_word": false,
       "special": false
     },
-    "51357": {
+    "35156": {
       "content": "건강보험차상위",
       "lstrip": false,
       "normalized": true,
@@ -4265,7 +1296,7 @@
       "single_word": false,
       "special": false
     },
-    "51358": {
+    "35157": {
       "content": "고혈압·당뇨병등록관리",
       "lstrip": false,
       "normalized": true,
@@ -4273,7 +1304,7 @@
       "single_word": false,
       "special": false
     },
-    "51359": {
+    "35158": {
       "content": "의료급여산정특례(중증질환산정특례)",
       "lstrip": false,
       "normalized": true,
@@ -4281,7 +1312,7 @@
       "single_word": false,
       "special": false
     },
-    "51360": {
+    "35159": {
       "content": "재난적의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -4289,7 +1320,7 @@
       "single_word": false,
       "special": false
     },
-    "51361": {
+    "35160": {
       "content": "의료급여본인부담금보상제·상한제·대지급금지원",
       "lstrip": false,
       "normalized": true,
@@ -4297,7 +1328,7 @@
       "single_word": false,
       "special": false
     },
-    "51362": {
+    "35161": {
       "content": "의료급여제도",
       "lstrip": false,
       "normalized": true,
@@ -4305,7 +1336,7 @@
       "single_word": false,
       "special": false
     },
-    "51363": {
+    "35162": {
       "content": "의료급여본인부담면제",
       "lstrip": false,
       "normalized": true,
@@ -4313,7 +1344,7 @@
       "single_word": false,
       "special": false
     },
-    "51364": {
+    "35163": {
       "content": "건강생활유지비지원",
       "lstrip": false,
       "normalized": true,
@@ -4321,7 +1352,7 @@
       "single_word": false,
       "special": false
     },
-    "51365": {
+    "35164": {
       "content": "선택의료급여기관제도",
       "lstrip": false,
       "normalized": true,
@@ -4329,7 +1360,7 @@
       "single_word": false,
       "special": false
     },
-    "51366": {
+    "35165": {
       "content": "국가건강검진제도",
       "lstrip": false,
       "normalized": true,
@@ -4337,7 +1368,7 @@
       "single_word": false,
       "special": false
     },
-    "51367": {
+    "35166": {
       "content": "지역사회통합건강증진사업",
       "lstrip": false,
       "normalized": true,
@@ -4345,7 +1376,7 @@
       "single_word": false,
       "special": false
     },
-    "51368": {
+    "35167": {
       "content": "청년마음건강지원사업(바우처)",
       "lstrip": false,
       "normalized": true,
@@ -4353,7 +1384,7 @@
       "single_word": false,
       "special": false
     },
-    "51369": {
+    "35168": {
       "content": "성인암환자의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -4361,7 +1392,7 @@
       "single_word": false,
       "special": false
     },
-    "51370": {
+    "35169": {
       "content": "소아암환자의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -4369,7 +1400,7 @@
       "single_word": false,
       "special": false
     },
-    "51371": {
+    "35170": {
       "content": "희귀질환자의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -4377,7 +1408,7 @@
       "single_word": false,
       "special": false
     },
-    "51372": {
+    "35171": {
       "content": "입원·격리치료명령결핵환자부양가족생활보호비지원",
       "lstrip": false,
       "normalized": true,
@@ -4385,7 +1416,7 @@
       "single_word": false,
       "special": false
     },
-    "51373": {
+    "35172": {
       "content": "정신건강복지센터이용",
       "lstrip": false,
       "normalized": true,
@@ -4393,7 +1424,7 @@
       "single_word": false,
       "special": false
     },
-    "51374": {
+    "35173": {
       "content": "중독관리통합지원센터운영",
       "lstrip": false,
       "normalized": true,
@@ -4401,7 +1432,7 @@
       "single_word": false,
       "special": false
     },
-    "51375": {
+    "35174": {
       "content": "노숙인및취약계층알코올중독문제관리사업",
       "lstrip": false,
       "normalized": true,
@@ -4409,7 +1440,7 @@
       "single_word": false,
       "special": false
     },
-    "51376": {
+    "35175": {
       "content": "자살예방센터운영",
       "lstrip": false,
       "normalized": true,
@@ -4417,7 +1448,7 @@
       "single_word": false,
       "special": false
     },
-    "51377": {
+    "35176": {
       "content": "정신질환자치료비지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4425,7 +1456,7 @@
       "single_word": false,
       "special": false
     },
-    "51378": {
+    "35177": {
       "content": "노인장기요양보험제도",
       "lstrip": false,
       "normalized": true,
@@ -4433,7 +1464,7 @@
       "single_word": false,
       "special": false
     },
-    "51379": {
+    "35178": {
       "content": "노인장기요양보험본인부담금감경",
       "lstrip": false,
       "normalized": true,
@@ -4441,7 +1472,7 @@
       "single_word": false,
       "special": false
     },
-    "51380": {
+    "35179": {
       "content": "기초연금제도",
       "lstrip": false,
       "normalized": true,
@@ -4449,7 +1480,7 @@
       "single_word": false,
       "special": false
     },
-    "51381": {
+    "35180": {
       "content": "노후준비서비스",
       "lstrip": false,
       "normalized": true,
@@ -4457,7 +1488,7 @@
       "single_word": false,
       "special": false
     },
-    "51382": {
+    "35181": {
       "content": "주택연금제도",
       "lstrip": false,
       "normalized": true,
@@ -4465,7 +1496,7 @@
       "single_word": false,
       "special": false
     },
-    "51383": {
+    "35182": {
       "content": "노후긴급자금대부사업",
       "lstrip": false,
       "normalized": true,
@@ -4473,7 +1504,7 @@
       "single_word": false,
       "special": false
     },
-    "51384": {
+    "35183": {
       "content": "은퇴금융아카데미",
       "lstrip": false,
       "normalized": true,
@@ -4481,7 +1512,7 @@
       "single_word": false,
       "special": false
     },
-    "51385": {
+    "35184": {
       "content": "노인일자리및사회활동지원",
       "lstrip": false,
       "normalized": true,
@@ -4489,7 +1520,7 @@
       "single_word": false,
       "special": false
     },
-    "51386": {
+    "35185": {
       "content": "노인복지관,경로당이용",
       "lstrip": false,
       "normalized": true,
@@ -4497,7 +1528,7 @@
       "single_word": false,
       "special": false
     },
-    "51387": {
+    "35186": {
       "content": "디지털배움터",
       "lstrip": false,
       "normalized": true,
@@ -4505,7 +1536,7 @@
       "single_word": false,
       "special": false
     },
-    "51388": {
+    "35187": {
       "content": "어르신문화활동지원",
       "lstrip": false,
       "normalized": true,
@@ -4513,7 +1544,7 @@
       "single_word": false,
       "special": false
     },
-    "51389": {
+    "35188": {
       "content": "치매검진지원",
       "lstrip": false,
       "normalized": true,
@@ -4521,7 +1552,7 @@
       "single_word": false,
       "special": false
     },
-    "51390": {
+    "35189": {
       "content": "치매치료관리비지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4529,7 +1560,7 @@
       "single_word": false,
       "special": false
     },
-    "51391": {
+    "35190": {
       "content": "노인안검진및개안수술",
       "lstrip": false,
       "normalized": true,
@@ -4537,7 +1568,7 @@
       "single_word": false,
       "special": false
     },
-    "51392": {
+    "35191": {
       "content": "노인틀니지원",
       "lstrip": false,
       "normalized": true,
@@ -4545,7 +1576,7 @@
       "single_word": false,
       "special": false
     },
-    "51393": {
+    "35192": {
       "content": "노인치과임플란트지원",
       "lstrip": false,
       "normalized": true,
@@ -4553,7 +1584,7 @@
       "single_word": false,
       "special": false
     },
-    "51394": {
+    "35193": {
       "content": "노인무릎인공관절수술지원",
       "lstrip": false,
       "normalized": true,
@@ -4561,7 +1592,7 @@
       "single_word": false,
       "special": false
     },
-    "51395": {
+    "35194": {
       "content": "어르신국가예방접종지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4569,7 +1600,7 @@
       "single_word": false,
       "special": false
     },
-    "51396": {
+    "35195": {
       "content": "노인맞춤돌봄서비스",
       "lstrip": false,
       "normalized": true,
@@ -4577,7 +1608,7 @@
       "single_word": false,
       "special": false
     },
-    "51397": {
+    "35196": {
       "content": "독거노인·장애인응급안전안심서비스",
       "lstrip": false,
       "normalized": true,
@@ -4585,7 +1616,7 @@
       "single_word": false,
       "special": false
     },
-    "51398": {
+    "35197": {
       "content": "노인보호전문기관이용",
       "lstrip": false,
       "normalized": true,
@@ -4593,7 +1624,7 @@
       "single_word": false,
       "special": false
     },
-    "51399": {
+    "35198": {
       "content": "어르신을위한요금감면제도",
       "lstrip": false,
       "normalized": true,
@@ -4601,7 +1632,7 @@
       "single_word": false,
       "special": false
     },
-    "51400": {
+    "35199": {
       "content": "장애인등록신청",
       "lstrip": false,
       "normalized": true,
@@ -4609,7 +1640,7 @@
       "single_word": false,
       "special": false
     },
-    "51401": {
+    "35200": {
       "content": "장애인서비스지원종합조사신청",
       "lstrip": false,
       "normalized": true,
@@ -4617,7 +1648,7 @@
       "single_word": false,
       "special": false
     },
-    "51402": {
+    "35201": {
       "content": "장애아동수당",
       "lstrip": false,
       "normalized": true,
@@ -4625,7 +1656,7 @@
       "single_word": false,
       "special": false
     },
-    "51403": {
+    "35202": {
       "content": "장애수당",
       "lstrip": false,
       "normalized": true,
@@ -4633,7 +1664,7 @@
       "single_word": false,
       "special": false
     },
-    "51404": {
+    "35203": {
       "content": "장애인연금",
       "lstrip": false,
       "normalized": true,
@@ -4641,7 +1672,7 @@
       "single_word": false,
       "special": false
     },
-    "51405": {
+    "35204": {
       "content": "여성장애인출산비용지원",
       "lstrip": false,
       "normalized": true,
@@ -4649,7 +1680,7 @@
       "single_word": false,
       "special": false
     },
-    "51406": {
+    "35205": {
       "content": "장애아동입양양육지원",
       "lstrip": false,
       "normalized": true,
@@ -4657,7 +1688,7 @@
       "single_word": false,
       "special": false
     },
-    "51407": {
+    "35206": {
       "content": "장애아보육료지원",
       "lstrip": false,
       "normalized": true,
@@ -4665,7 +1696,7 @@
       "single_word": false,
       "special": false
     },
-    "51408": {
+    "35207": {
       "content": "장애아동양육수당",
       "lstrip": false,
       "normalized": true,
@@ -4673,7 +1704,7 @@
       "single_word": false,
       "special": false
     },
-    "51409": {
+    "35208": {
       "content": "장애아가족양육지원",
       "lstrip": false,
       "normalized": true,
@@ -4681,7 +1712,7 @@
       "single_word": false,
       "special": false
     },
-    "51410": {
+    "35209": {
       "content": "발달장애인가족휴식지원",
       "lstrip": false,
       "normalized": true,
@@ -4689,7 +1720,7 @@
       "single_word": false,
       "special": false
     },
-    "51411": {
+    "35210": {
       "content": "발달장애인부모상담지원",
       "lstrip": false,
       "normalized": true,
@@ -4697,7 +1728,7 @@
       "single_word": false,
       "special": false
     },
-    "51412": {
+    "35211": {
       "content": "발달장애인긴급돌봄시범사업",
       "lstrip": false,
       "normalized": true,
@@ -4705,7 +1736,7 @@
       "single_word": false,
       "special": false
     },
-    "51413": {
+    "35212": {
       "content": "장애아방과후보육료지원",
       "lstrip": false,
       "normalized": true,
@@ -4713,7 +1744,7 @@
       "single_word": false,
       "special": false
     },
-    "51414": {
+    "35213": {
       "content": "장애아동그밖의연장형보육료지원(어린이집이용아동)",
       "lstrip": false,
       "normalized": true,
@@ -4721,7 +1752,7 @@
       "single_word": false,
       "special": false
     },
-    "51415": {
+    "35214": {
       "content": "여성장애인교육지원",
       "lstrip": false,
       "normalized": true,
@@ -4729,7 +1760,7 @@
       "single_word": false,
       "special": false
     },
-    "51416": {
+    "35215": {
       "content": "특수교육대상자치료지원서비스",
       "lstrip": false,
       "normalized": true,
@@ -4737,7 +1768,7 @@
       "single_word": false,
       "special": false
     },
-    "51417": {
+    "35216": {
       "content": "국립특수학교및국립부설학교특수학급지원",
       "lstrip": false,
       "normalized": true,
@@ -4745,7 +1776,7 @@
       "single_word": false,
       "special": false
     },
-    "51418": {
+    "35217": {
       "content": "대학의장애학생지원센터운영지원",
       "lstrip": false,
       "normalized": true,
@@ -4753,7 +1784,7 @@
       "single_word": false,
       "special": false
     },
-    "51419": {
+    "35218": {
       "content": "장애인정보화교육",
       "lstrip": false,
       "normalized": true,
@@ -4761,7 +1792,7 @@
       "single_word": false,
       "special": false
     },
-    "51420": {
+    "35219": {
       "content": "장애학생정보격차해소지원",
       "lstrip": false,
       "normalized": true,
@@ -4769,7 +1800,7 @@
       "single_word": false,
       "special": false
     },
-    "51421": {
+    "35220": {
       "content": "장애인일자리지원",
       "lstrip": false,
       "normalized": true,
@@ -4777,7 +1808,7 @@
       "single_word": false,
       "special": false
     },
-    "51422": {
+    "35221": {
       "content": "중증장애인직업재활지원",
       "lstrip": false,
       "normalized": true,
@@ -4785,7 +1816,7 @@
       "single_word": false,
       "special": false
     },
-    "51423": {
+    "35222": {
       "content": "장애인직업재활시설이용",
       "lstrip": false,
       "normalized": true,
@@ -4793,7 +1824,7 @@
       "single_word": false,
       "special": false
     },
-    "51424": {
+    "35223": {
       "content": "중증장애인생산품우선구매",
       "lstrip": false,
       "normalized": true,
@@ -4801,7 +1832,7 @@
       "single_word": false,
       "special": false
     },
-    "51425": {
+    "35224": {
       "content": "장애인생산품판매시설",
       "lstrip": false,
       "normalized": true,
@@ -4809,7 +1840,7 @@
       "single_word": false,
       "special": false
     },
-    "51426": {
+    "35225": {
       "content": "장애인취업성공패키지",
       "lstrip": false,
       "normalized": true,
@@ -4817,7 +1848,7 @@
       "single_word": false,
       "special": false
     },
-    "51427": {
+    "35226": {
       "content": "장애인근로지원인",
       "lstrip": false,
       "normalized": true,
@@ -4825,7 +1856,7 @@
       "single_word": false,
       "special": false
     },
-    "51428": {
+    "35227": {
       "content": "중증장애인확인서발급",
       "lstrip": false,
       "normalized": true,
@@ -4833,7 +1864,7 @@
       "single_word": false,
       "special": false
     },
-    "51429": {
+    "35228": {
       "content": "장애인신규고용장려금지원",
       "lstrip": false,
       "normalized": true,
@@ -4841,7 +1872,7 @@
       "single_word": false,
       "special": false
     },
-    "51430": {
+    "35229": {
       "content": "중증장애인지원고용(훈련수당)",
       "lstrip": false,
       "normalized": true,
@@ -4849,7 +1880,7 @@
       "single_word": false,
       "special": false
     },
-    "51431": {
+    "35230": {
       "content": "장애인직업능력개발운영(훈련수당)",
       "lstrip": false,
       "normalized": true,
@@ -4857,7 +1888,7 @@
       "single_word": false,
       "special": false
     },
-    "51432": {
+    "35231": {
       "content": "근로장애인전환지원",
       "lstrip": false,
       "normalized": true,
@@ -4865,7 +1896,7 @@
       "single_word": false,
       "special": false
     },
-    "51433": {
+    "35232": {
       "content": "장애인고용장려금지원",
       "lstrip": false,
       "normalized": true,
@@ -4873,7 +1904,7 @@
       "single_word": false,
       "special": false
     },
-    "51434": {
+    "35233": {
       "content": "장애인고용시설장비융자·무상지원",
       "lstrip": false,
       "normalized": true,
@@ -4881,7 +1912,7 @@
       "single_word": false,
       "special": false
     },
-    "51435": {
+    "35234": {
       "content": "장애인표준사업장설립지원",
       "lstrip": false,
       "normalized": true,
@@ -4889,7 +1920,7 @@
       "single_word": false,
       "special": false
     },
-    "51436": {
+    "35235": {
       "content": "장애인고용관리비용지원",
       "lstrip": false,
       "normalized": true,
@@ -4897,7 +1928,7 @@
       "single_word": false,
       "special": false
     },
-    "51437": {
+    "35236": {
       "content": "보조공학기기지원",
       "lstrip": false,
       "normalized": true,
@@ -4905,7 +1936,7 @@
       "single_word": false,
       "special": false
     },
-    "51438": {
+    "35237": {
       "content": "장애인자립자금대여",
       "lstrip": false,
       "normalized": true,
@@ -4913,7 +1944,7 @@
       "single_word": false,
       "special": false
     },
-    "51439": {
+    "35238": {
       "content": "장애인기업창업보육실운영",
       "lstrip": false,
       "normalized": true,
@@ -4921,7 +1952,7 @@
       "single_word": false,
       "special": false
     },
-    "51440": {
+    "35239": {
       "content": "장애인창업점포지원사업",
       "lstrip": false,
       "normalized": true,
@@ -4929,7 +1960,7 @@
       "single_word": false,
       "special": false
     },
-    "51441": {
+    "35240": {
       "content": "장애인창업육성",
       "lstrip": false,
       "normalized": true,
@@ -4937,7 +1968,7 @@
       "single_word": false,
       "special": false
     },
-    "51442": {
+    "35241": {
       "content": "정보통신보조기기보급",
       "lstrip": false,
       "normalized": true,
@@ -4945,7 +1976,7 @@
       "single_word": false,
       "special": false
     },
-    "51443": {
+    "35242": {
       "content": "장애인의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -4953,7 +1984,7 @@
       "single_word": false,
       "special": false
     },
-    "51444": {
+    "35243": {
       "content": "장애인건강보험료경감",
       "lstrip": false,
       "normalized": true,
@@ -4961,7 +1992,7 @@
       "single_word": false,
       "special": false
     },
-    "51445": {
+    "35244": {
       "content": "장애인보조기기급여",
       "lstrip": false,
       "normalized": true,
@@ -4969,7 +2000,7 @@
       "single_word": false,
       "special": false
     },
-    "51446": {
+    "35245": {
       "content": "장애정도심사검사비지원",
       "lstrip": false,
       "normalized": true,
@@ -4977,7 +2008,7 @@
       "single_word": false,
       "special": false
     },
-    "51447": {
+    "35246": {
       "content": "장애정도심사용진단서발급비지원",
       "lstrip": false,
       "normalized": true,
@@ -4985,7 +2016,7 @@
       "single_word": false,
       "special": false
     },
-    "51448": {
+    "35247": {
       "content": "장애인보조기기지원",
       "lstrip": false,
       "normalized": true,
@@ -4993,7 +2024,7 @@
       "single_word": false,
       "special": false
     },
-    "51449": {
+    "35248": {
       "content": "장애입양아동의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -5001,7 +2032,7 @@
       "single_word": false,
       "special": false
     },
-    "51450": {
+    "35249": {
       "content": "언어발달지원",
       "lstrip": false,
       "normalized": true,
@@ -5009,7 +2040,7 @@
       "single_word": false,
       "special": false
     },
-    "51451": {
+    "35250": {
       "content": "청각장애인인공달팽이관수술비지원",
       "lstrip": false,
       "normalized": true,
@@ -5017,7 +2048,7 @@
       "single_word": false,
       "special": false
     },
-    "51452": {
+    "35251": {
       "content": "발달재활서비스",
       "lstrip": false,
       "normalized": true,
@@ -5025,7 +2056,7 @@
       "single_word": false,
       "special": false
     },
-    "51453": {
+    "35252": {
       "content": "지역사회중심재활사업",
       "lstrip": false,
       "normalized": true,
@@ -5033,7 +2064,7 @@
       "single_word": false,
       "special": false
     },
-    "51454": {
+    "35253": {
       "content": "지역장애인보건의료센터",
       "lstrip": false,
       "normalized": true,
@@ -5041,7 +2072,7 @@
       "single_word": false,
       "special": false
     },
-    "51455": {
+    "35254": {
       "content": "장애친화건강검진",
       "lstrip": false,
       "normalized": true,
@@ -5049,7 +2080,7 @@
       "single_word": false,
       "special": false
     },
-    "51456": {
+    "35255": {
       "content": "장애인의료재활시설이용",
       "lstrip": false,
       "normalized": true,
@@ -5057,7 +2088,7 @@
       "single_word": false,
       "special": false
     },
-    "51457": {
+    "35256": {
       "content": "장애인재활지원사업",
       "lstrip": false,
       "normalized": true,
@@ -5065,7 +2096,7 @@
       "single_word": false,
       "special": false
     },
-    "51458": {
+    "35257": {
       "content": "장애인활동지원",
       "lstrip": false,
       "normalized": true,
@@ -5073,7 +2104,7 @@
       "single_word": false,
       "special": false
     },
-    "51459": {
+    "35258": {
       "content": "성인발달장애인주간활동서비스",
       "lstrip": false,
       "normalized": true,
@@ -5081,7 +2112,7 @@
       "single_word": false,
       "special": false
     },
-    "51460": {
+    "35259": {
       "content": "청소년발달장애인방과후활동서비스",
       "lstrip": false,
       "normalized": true,
@@ -5089,7 +2120,7 @@
       "single_word": false,
       "special": false
     },
-    "51461": {
+    "35260": {
       "content": "여성장애인가사도우미파견",
       "lstrip": false,
       "normalized": true,
@@ -5097,7 +2128,7 @@
       "single_word": false,
       "special": false
     },
-    "51462": {
+    "35261": {
       "content": "장애인주택특별(우선)공급",
       "lstrip": false,
       "normalized": true,
@@ -5105,7 +2136,7 @@
       "single_word": false,
       "special": false
     },
-    "51463": {
+    "35262": {
       "content": "농어촌장애인주택개조",
       "lstrip": false,
       "normalized": true,
@@ -5113,7 +2144,7 @@
       "single_word": false,
       "special": false
     },
-    "51464": {
+    "35263": {
       "content": "장애인거주시설이용",
       "lstrip": false,
       "normalized": true,
@@ -5121,7 +2152,7 @@
       "single_word": false,
       "special": false
     },
-    "51465": {
+    "35264": {
       "content": "장애인거주시설실비입소이용료지원",
       "lstrip": false,
       "normalized": true,
@@ -5129,7 +2160,7 @@
       "single_word": false,
       "special": false
     },
-    "51466": {
+    "35265": {
       "content": "발달장애인공공후견지원",
       "lstrip": false,
       "normalized": true,
@@ -5137,7 +2168,7 @@
       "single_word": false,
       "special": false
     },
-    "51467": {
+    "35266": {
       "content": "무료법률구조제도",
       "lstrip": false,
       "normalized": true,
@@ -5145,7 +2176,7 @@
       "single_word": false,
       "special": false
     },
-    "51468": {
+    "35267": {
       "content": "소외계층방송접근권보장사업(시각·청각장애인용TV보급)",
       "lstrip": false,
       "normalized": true,
@@ -5153,7 +2184,7 @@
       "single_word": false,
       "special": false
     },
-    "51469": {
+    "35268": {
       "content": "승용자동차LPG연료사용허용",
       "lstrip": false,
       "normalized": true,
@@ -5161,7 +2192,7 @@
       "single_word": false,
       "special": false
     },
-    "51470": {
+    "35269": {
       "content": "장애인자동차표지발급",
       "lstrip": false,
       "normalized": true,
@@ -5169,7 +2200,7 @@
       "single_word": false,
       "special": false
     },
-    "51471": {
+    "35270": {
       "content": "장애인운전교육사업",
       "lstrip": false,
       "normalized": true,
@@ -5177,7 +2208,7 @@
       "single_word": false,
       "special": false
     },
-    "51472": {
+    "35271": {
       "content": "장애인전용승용자동차에대한개별소비세면제",
       "lstrip": false,
       "normalized": true,
@@ -5185,7 +2216,7 @@
       "single_word": false,
       "special": false
     },
-    "51473": {
+    "35272": {
       "content": "장애인상속세상속공제",
       "lstrip": false,
       "normalized": true,
@@ -5193,7 +2224,7 @@
       "single_word": false,
       "special": false
     },
-    "51474": {
+    "35273": {
       "content": "장애인용자동차에대한지방세감면",
       "lstrip": false,
       "normalized": true,
@@ -5201,7 +2232,7 @@
       "single_word": false,
       "special": false
     },
-    "51475": {
+    "35274": {
       "content": "증여세과세가액불산입",
       "lstrip": false,
       "normalized": true,
@@ -5209,7 +2240,7 @@
       "single_word": false,
       "special": false
     },
-    "51476": {
+    "35275": {
       "content": "장애인보조기기부가가치세영세율적용",
       "lstrip": false,
       "normalized": true,
@@ -5217,7 +2248,7 @@
       "single_word": false,
       "special": false
     },
-    "51477": {
+    "35276": {
       "content": "장애인주간보호시설",
       "lstrip": false,
       "normalized": true,
@@ -5225,7 +2256,7 @@
       "single_word": false,
       "special": false
     },
-    "51478": {
+    "35277": {
       "content": "장애인복지관",
       "lstrip": false,
       "normalized": true,
@@ -5233,7 +2264,7 @@
       "single_word": false,
       "special": false
     },
-    "51479": {
+    "35278": {
       "content": "장애인체육시설",
       "lstrip": false,
       "normalized": true,
@@ -5241,7 +2272,7 @@
       "single_word": false,
       "special": false
     },
-    "51480": {
+    "35279": {
       "content": "장애인생활이동지원센터",
       "lstrip": false,
       "normalized": true,
@@ -5249,7 +2280,7 @@
       "single_word": false,
       "special": false
     },
-    "51481": {
+    "35280": {
       "content": "수어통역센터",
       "lstrip": false,
       "normalized": true,
@@ -5257,7 +2288,7 @@
       "single_word": false,
       "special": false
     },
-    "51482": {
+    "35281": {
       "content": "장애인을위한요금감면제도",
       "lstrip": false,
       "normalized": true,
@@ -5265,7 +2296,7 @@
       "single_word": false,
       "special": false
     },
-    "51483": {
+    "35282": {
       "content": "국가유공자등보상금",
       "lstrip": false,
       "normalized": true,
@@ -5273,7 +2304,7 @@
       "single_word": false,
       "special": false
     },
-    "51484": {
+    "35283": {
       "content": "국가유공자등사망일시금",
       "lstrip": false,
       "normalized": true,
@@ -5281,7 +2312,7 @@
       "single_word": false,
       "special": false
     },
-    "51485": {
+    "35284": {
       "content": "국가유공자등생활조정수당",
       "lstrip": false,
       "normalized": true,
@@ -5289,7 +2320,7 @@
       "single_word": false,
       "special": false
     },
-    "51486": {
+    "35285": {
       "content": "무공영예수당",
       "lstrip": false,
       "normalized": true,
@@ -5297,7 +2328,7 @@
       "single_word": false,
       "special": false
     },
-    "51487": {
+    "35286": {
       "content": "독립유공자(손)자녀생활지원금(저소득가구지원)",
       "lstrip": false,
       "normalized": true,
@@ -5305,7 +2336,7 @@
       "single_word": false,
       "special": false
     },
-    "51488": {
+    "35287": {
       "content": "애국지사특별예우금",
       "lstrip": false,
       "normalized": true,
@@ -5313,7 +2344,7 @@
       "single_word": false,
       "special": false
     },
-    "51489": {
+    "35288": {
       "content": "영주귀국정착금",
       "lstrip": false,
       "normalized": true,
@@ -5321,7 +2352,7 @@
       "single_word": false,
       "special": false
     },
-    "51490": {
+    "35289": {
       "content": "재해보상금",
       "lstrip": false,
       "normalized": true,
@@ -5329,7 +2360,7 @@
       "single_word": false,
       "special": false
     },
-    "51491": {
+    "35290": {
       "content": "재해위로금",
       "lstrip": false,
       "normalized": true,
@@ -5337,7 +2368,7 @@
       "single_word": false,
       "special": false
     },
-    "51492": {
+    "35291": {
       "content": "참전명예수당",
       "lstrip": false,
       "normalized": true,
@@ -5345,7 +2376,7 @@
       "single_word": false,
       "special": false
     },
-    "51493": {
+    "35292": {
       "content": "6·25자녀수당",
       "lstrip": false,
       "normalized": true,
@@ -5353,7 +2384,7 @@
       "single_word": false,
       "special": false
     },
-    "51494": {
+    "35293": {
       "content": "고엽제후유의증수당",
       "lstrip": false,
       "normalized": true,
@@ -5361,7 +2392,7 @@
       "single_word": false,
       "special": false
     },
-    "51495": {
+    "35294": {
       "content": "고엽제환자2세수당",
       "lstrip": false,
       "normalized": true,
@@ -5369,7 +2400,7 @@
       "single_word": false,
       "special": false
     },
-    "51496": {
+    "35295": {
       "content": "국가유공자등간호수당",
       "lstrip": false,
       "normalized": true,
@@ -5377,7 +2408,7 @@
       "single_word": false,
       "special": false
     },
-    "51497": {
+    "35296": {
       "content": "4·19혁명공로수당",
       "lstrip": false,
       "normalized": true,
@@ -5385,7 +2416,7 @@
       "single_word": false,
       "special": false
     },
-    "51498": {
+    "35297": {
       "content": "생계지원금",
       "lstrip": false,
       "normalized": true,
@@ -5393,7 +2424,7 @@
       "single_word": false,
       "special": false
     },
-    "51499": {
+    "35298": {
       "content": "재가복지지원",
       "lstrip": false,
       "normalized": true,
@@ -5401,7 +2432,7 @@
       "single_word": false,
       "special": false
     },
-    "51500": {
+    "35299": {
       "content": "요양지원",
       "lstrip": false,
       "normalized": true,
@@ -5409,7 +2440,7 @@
       "single_word": false,
       "special": false
     },
-    "51501": {
+    "35300": {
       "content": "민간노인장기요양급여이용지원",
       "lstrip": false,
       "normalized": true,
@@ -5417,7 +2448,7 @@
       "single_word": false,
       "special": false
     },
-    "51502": {
+    "35301": {
       "content": "양로지원",
       "lstrip": false,
       "normalized": true,
@@ -5425,7 +2456,7 @@
       "single_word": false,
       "special": false
     },
-    "51503": {
+    "35302": {
       "content": "양육지원",
       "lstrip": false,
       "normalized": true,
@@ -5433,7 +2464,7 @@
       "single_word": false,
       "special": false
     },
-    "51504": {
+    "35303": {
       "content": "보훈병원진료",
       "lstrip": false,
       "normalized": true,
@@ -5441,7 +2472,7 @@
       "single_word": false,
       "special": false
     },
-    "51505": {
+    "35304": {
       "content": "위탁병원진료(시군별지정의료기관)",
       "lstrip": false,
       "normalized": true,
@@ -5449,7 +2480,7 @@
       "single_word": false,
       "special": false
     },
-    "51506": {
+    "35305": {
       "content": "국가유공자기타의료지원",
       "lstrip": false,
       "normalized": true,
@@ -5457,7 +2488,7 @@
       "single_word": false,
       "special": false
     },
-    "51507": {
+    "35306": {
       "content": "보훈가족심리재활서비스지원",
       "lstrip": false,
       "normalized": true,
@@ -5465,7 +2496,7 @@
       "single_word": false,
       "special": false
     },
-    "51508": {
+    "35307": {
       "content": "국가보훈대상자LPG차량세금인상분지원",
       "lstrip": false,
       "normalized": true,
@@ -5473,7 +2504,7 @@
       "single_word": false,
       "special": false
     },
-    "51509": {
+    "35308": {
       "content": "국가보훈대상자친환경차량(전기·수소차)지원",
       "lstrip": false,
       "normalized": true,
@@ -5481,7 +2512,7 @@
       "single_word": false,
       "special": false
     },
-    "51510": {
+    "35309": {
       "content": "교통시설이용지원",
       "lstrip": false,
       "normalized": true,
@@ -5489,7 +2520,7 @@
       "single_word": false,
       "special": false
     },
-    "51511": {
+    "35310": {
       "content": "통신요금감면",
       "lstrip": false,
       "normalized": true,
@@ -5497,7 +2528,7 @@
       "single_word": false,
       "special": false
     },
-    "51512": {
+    "35311": {
       "content": "국가유공자등대부지원",
       "lstrip": false,
       "normalized": true,
@@ -5505,7 +2536,7 @@
       "single_word": false,
       "special": false
     },
-    "51513": {
+    "35312": {
       "content": "장기복무제대군인대부지원",
       "lstrip": false,
       "normalized": true,
@@ -5513,7 +2544,7 @@
       "single_word": false,
       "special": false
     },
-    "51514": {
+    "35313": {
       "content": "국가유공자등취업능력개발지원",
       "lstrip": false,
       "normalized": true,
@@ -5521,7 +2552,7 @@
       "single_word": false,
       "special": false
     },
-    "51515": {
+    "35314": {
       "content": "국가유공자등취업지원",
       "lstrip": false,
       "normalized": true,
@@ -5529,7 +2560,7 @@
       "single_word": false,
       "special": false
     },
-    "51516": {
+    "35315": {
       "content": "장기복무제대군인취업지원",
       "lstrip": false,
       "normalized": true,
@@ -5537,7 +2568,7 @@
       "single_word": false,
       "special": false
     },
-    "51517": {
+    "35316": {
       "content": "제대군인전직지원금지원",
       "lstrip": false,
       "normalized": true,
@@ -5545,7 +2576,7 @@
       "single_word": false,
       "special": false
     },
-    "51518": {
+    "35317": {
       "content": "중장기복무제대군인무료법률구조지원",
       "lstrip": false,
       "normalized": true,
@@ -5553,7 +2584,7 @@
       "single_word": false,
       "special": false
     },
-    "51519": {
+    "35318": {
       "content": "국가보훈대상자수업료등면제",
       "lstrip": false,
       "normalized": true,
@@ -5561,7 +2592,7 @@
       "single_word": false,
       "special": false
     },
-    "51520": {
+    "35319": {
       "content": "국가보훈대상자학습보조비지급",
       "lstrip": false,
       "normalized": true,
@@ -5569,7 +2600,7 @@
       "single_word": false,
       "special": false
     },
-    "51521": {
+    "35320": {
       "content": "장기복무제대군인수업료보조",
       "lstrip": false,
       "normalized": true,
@@ -5577,7 +2608,7 @@
       "single_word": false,
       "special": false
     },
-    "51522": {
+    "35321": {
       "content": "국가보훈대상자보훈장학금지급",
       "lstrip": false,
       "normalized": true,
@@ -5585,7 +2616,7 @@
       "single_word": false,
       "special": false
     },
-    "51523": {
+    "35322": {
       "content": "무료법률상담",
       "lstrip": false,
       "normalized": true,
@@ -5593,7 +2624,7 @@
       "single_word": false,
       "special": false
     },
-    "51524": {
+    "35323": {
       "content": "마을변호사",
       "lstrip": false,
       "normalized": true,
@@ -5601,7 +2632,7 @@
       "single_word": false,
       "special": false
     },
-    "51525": {
+    "35324": {
       "content": "법문화교육센터",
       "lstrip": false,
       "normalized": true,
@@ -5609,7 +2640,7 @@
       "single_word": false,
       "special": false
     },
-    "51526": {
+    "35325": {
       "content": "법률홈닥터",
       "lstrip": false,
       "normalized": true,
@@ -5617,7 +2648,7 @@
       "single_word": false,
       "special": false
     },
-    "51527": {
+    "35326": {
       "content": "마을세무사",
       "lstrip": false,
       "normalized": true,
@@ -5625,7 +2656,7 @@
       "single_word": false,
       "special": false
     },
-    "51528": {
+    "35327": {
       "content": "법률구조",
       "lstrip": false,
       "normalized": true,
@@ -5633,7 +2664,7 @@
       "single_word": false,
       "special": false
     },
-    "51529": {
+    "35328": {
       "content": "개인회생·파산종합지원센터",
       "lstrip": false,
       "normalized": true,
@@ -5641,7 +2672,7 @@
       "single_word": false,
       "special": false
     },
-    "51530": {
+    "35329": {
       "content": "주택·상가건물임대차분쟁조정위원회",
       "lstrip": false,
       "normalized": true,
@@ -5649,7 +2680,7 @@
       "single_word": false,
       "special": false
     },
-    "51531": {
+    "35330": {
       "content": "대지급금제도",
       "lstrip": false,
       "normalized": true,
@@ -5657,7 +2688,7 @@
       "single_word": false,
       "special": false
     },
-    "51532": {
+    "35331": {
       "content": "서민금융진흥원맞춤대출서비스",
       "lstrip": false,
       "normalized": true,
@@ -5665,7 +2696,7 @@
       "single_word": false,
       "special": false
     },
-    "51533": {
+    "35332": {
       "content": "미소금융",
       "lstrip": false,
       "normalized": true,
@@ -5673,7 +2704,7 @@
       "single_word": false,
       "special": false
     },
-    "51534": {
+    "35333": {
       "content": "신용회복위원회성실상환자소액대출",
       "lstrip": false,
       "normalized": true,
@@ -5681,7 +2712,7 @@
       "single_word": false,
       "special": false
     },
-    "51535": {
+    "35334": {
       "content": "새희망홀씨",
       "lstrip": false,
       "normalized": true,
@@ -5689,7 +2720,7 @@
       "single_word": false,
       "special": false
     },
-    "51536": {
+    "35335": {
       "content": "햇살론",
       "lstrip": false,
       "normalized": true,
@@ -5697,7 +2728,7 @@
       "single_word": false,
       "special": false
     },
-    "51537": {
+    "35336": {
       "content": "햇살론youth",
       "lstrip": false,
       "normalized": true,
@@ -5705,7 +2736,7 @@
       "single_word": false,
       "special": false
     },
-    "51538": {
+    "35337": {
       "content": "햇살론15",
       "lstrip": false,
       "normalized": true,
@@ -5713,7 +2744,7 @@
       "single_word": false,
       "special": false
     },
-    "51539": {
+    "35338": {
       "content": "햇살론뱅크",
       "lstrip": false,
       "normalized": true,
@@ -5721,7 +2752,7 @@
       "single_word": false,
       "special": false
     },
-    "51540": {
+    "35339": {
       "content": "햇살론카드",
       "lstrip": false,
       "normalized": true,
@@ -5729,7 +2760,7 @@
       "single_word": false,
       "special": false
     },
-    "51541": {
+    "35340": {
       "content": "직업훈련생계비대부사업",
       "lstrip": false,
       "normalized": true,
@@ -5737,7 +2768,7 @@
       "single_word": false,
       "special": false
     },
-    "51542": {
+    "35341": {
       "content": "근로자생활안정자금융자",
       "lstrip": false,
       "normalized": true,
@@ -5745,7 +2776,7 @@
       "single_word": false,
       "special": false
     },
-    "51543": {
+    "35342": {
       "content": "소상공인지원(융자)",
       "lstrip": false,
       "normalized": true,
@@ -5753,7 +2784,7 @@
       "single_word": false,
       "special": false
     },
-    "51544": {
+    "35343": {
       "content": "서민금융진흥원자영업컨설팅",
       "lstrip": false,
       "normalized": true,
@@ -5761,7 +2792,7 @@
       "single_word": false,
       "special": false
     },
-    "51545": {
+    "35344": {
       "content": "서민금융진흥원금융교육",
       "lstrip": false,
       "normalized": true,
@@ -5769,7 +2800,7 @@
       "single_word": false,
       "special": false
     },
-    "51546": {
+    "35345": {
       "content": "신용회복위원회신용교육",
       "lstrip": false,
       "normalized": true,
@@ -5777,7 +2808,7 @@
       "single_word": false,
       "special": false
     },
-    "51547": {
+    "35346": {
       "content": "사회서비스원긴급돌봄사업",
       "lstrip": false,
       "normalized": true,
@@ -5785,7 +2816,7 @@
       "single_word": false,
       "special": false
     },
-    "51548": {
+    "35347": {
       "content": "사회서비스원종합재가센터",
       "lstrip": false,
       "normalized": true,
@@ -5793,7 +2824,7 @@
       "single_word": false,
       "special": false
     },
-    "51549": {
+    "35348": {
       "content": "가족센터운영",
       "lstrip": false,
       "normalized": true,
@@ -5801,7 +2832,7 @@
       "single_word": false,
       "special": false
     },
-    "51550": {
+    "35349": {
       "content": "가족상담전화(1644-6621)",
       "lstrip": false,
       "normalized": true,
@@ -5809,7 +2840,7 @@
       "single_word": false,
       "special": false
     },
-    "51551": {
+    "35350": {
       "content": "청소년한부모등자립지원패키지",
       "lstrip": false,
       "normalized": true,
@@ -5817,7 +2848,7 @@
       "single_word": false,
       "special": false
     },
-    "51552": {
+    "35351": {
       "content": "한부모가족아동양육비지원",
       "lstrip": false,
       "normalized": true,
@@ -5825,7 +2856,7 @@
       "single_word": false,
       "special": false
     },
-    "51553": {
+    "35352": {
       "content": "한부모가족자녀교육비지원",
       "lstrip": false,
       "normalized": true,
@@ -5833,7 +2864,7 @@
       "single_word": false,
       "special": false
     },
-    "51554": {
+    "35353": {
       "content": "한부모가족주거지원(주택분양·임대)",
       "lstrip": false,
       "normalized": true,
@@ -5841,7 +2872,7 @@
       "single_word": false,
       "special": false
     },
-    "51555": {
+    "35354": {
       "content": "한부모가족복지시설지원",
       "lstrip": false,
       "normalized": true,
@@ -5849,7 +2880,7 @@
       "single_word": false,
       "special": false
     },
-    "51556": {
+    "35355": {
       "content": "양육비이행지원종합서비스",
       "lstrip": false,
       "normalized": true,
@@ -5857,7 +2888,7 @@
       "single_word": false,
       "special": false
     },
-    "51557": {
+    "35356": {
       "content": "청소년한부모자립지원",
       "lstrip": false,
       "normalized": true,
@@ -5865,7 +2896,7 @@
       "single_word": false,
       "special": false
     },
-    "51558": {
+    "35357": {
       "content": "다문화아동보육료지원",
       "lstrip": false,
       "normalized": true,
@@ -5873,7 +2904,7 @@
       "single_word": false,
       "special": false
     },
-    "51559": {
+    "35358": {
       "content": "주거지원(주택특별공급)",
       "lstrip": false,
       "normalized": true,
@@ -5881,7 +2912,7 @@
       "single_word": false,
       "special": false
     },
-    "51560": {
+    "35359": {
       "content": "맞춤형기초생활보장제도",
       "lstrip": false,
       "normalized": true,
@@ -5889,7 +2920,7 @@
       "single_word": false,
       "special": false
     },
-    "51561": {
+    "35360": {
       "content": "긴급복지지원제도",
       "lstrip": false,
       "normalized": true,
@@ -5897,7 +2928,7 @@
       "single_word": false,
       "special": false
     },
-    "51562": {
+    "35361": {
       "content": "사회통합프로그램(KIIP)",
       "lstrip": false,
       "normalized": true,
@@ -5905,7 +2936,7 @@
       "single_word": false,
       "special": false
     },
-    "51563": {
+    "35362": {
       "content": "다문화·탈북학생멘토링지원",
       "lstrip": false,
       "normalized": true,
@@ -5913,7 +2944,7 @@
       "single_word": false,
       "special": false
     },
-    "51564": {
+    "35363": {
       "content": "다문화가족자녀언어발달지원",
       "lstrip": false,
       "normalized": true,
@@ -5921,7 +2952,7 @@
       "single_word": false,
       "special": false
     },
-    "51565": {
+    "35364": {
       "content": "다문화가족지원센터이용",
       "lstrip": false,
       "normalized": true,
@@ -5929,7 +2960,7 @@
       "single_word": false,
       "special": false
     },
-    "51566": {
+    "35365": {
       "content": "다문화가족방문교육서비스",
       "lstrip": false,
       "normalized": true,
@@ -5937,7 +2968,7 @@
       "single_word": false,
       "special": false
     },
-    "51567": {
+    "35366": {
       "content": "결혼이민자통번역서비스",
       "lstrip": false,
       "normalized": true,
@@ -5945,7 +2976,7 @@
       "single_word": false,
       "special": false
     },
-    "51568": {
+    "35367": {
       "content": "결혼이민여성직업교육훈련",
       "lstrip": false,
       "normalized": true,
@@ -5953,7 +2984,7 @@
       "single_word": false,
       "special": false
     },
-    "51569": {
+    "35368": {
       "content": "다누리콜센터(1577-1366)",
       "lstrip": false,
       "normalized": true,
@@ -5961,7 +2992,7 @@
       "single_word": false,
       "special": false
     },
-    "51570": {
+    "35369": {
       "content": "여성긴급전화1366",
       "lstrip": false,
       "normalized": true,
@@ -5969,7 +3000,7 @@
       "single_word": false,
       "special": false
     },
-    "51571": {
+    "35370": {
       "content": "성폭력피해자지원",
       "lstrip": false,
       "normalized": true,
@@ -5977,7 +3008,7 @@
       "single_word": false,
       "special": false
     },
-    "51572": {
+    "35371": {
       "content": "해바라기센터(성폭력피해자통합지원센터)운영",
       "lstrip": false,
       "normalized": true,
@@ -5985,7 +3016,7 @@
       "single_word": false,
       "special": false
     },
-    "51573": {
+    "35372": {
       "content": "성폭력피해아동·청소년전용쉼터(특별지원시설)운영지원",
       "lstrip": false,
       "normalized": true,
@@ -5993,7 +3024,7 @@
       "single_word": false,
       "special": false
     },
-    "51574": {
+    "35373": {
       "content": "가정폭력피해자지원",
       "lstrip": false,
       "normalized": true,
@@ -6001,7 +3032,7 @@
       "single_word": false,
       "special": false
     },
-    "51575": {
+    "35374": {
       "content": "가정폭력피해자치료회복프로그램및의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -6009,7 +3040,7 @@
       "single_word": false,
       "special": false
     },
-    "51576": {
+    "35375": {
       "content": "가정폭력·성폭력·스토킹피해자무료법률지원",
       "lstrip": false,
       "normalized": true,
@@ -6017,7 +3048,7 @@
       "single_word": false,
       "special": false
     },
-    "51577": {
+    "35376": {
       "content": "폭력피해여성주거지원",
       "lstrip": false,
       "normalized": true,
@@ -6025,7 +3056,7 @@
       "single_word": false,
       "special": false
     },
-    "51578": {
+    "35377": {
       "content": "성매매피해자지원",
       "lstrip": false,
       "normalized": true,
@@ -6033,7 +3064,7 @@
       "single_word": false,
       "special": false
     },
-    "51579": {
+    "35378": {
       "content": "산업재해보상보험제도",
       "lstrip": false,
       "normalized": true,
@@ -6041,7 +3072,7 @@
       "single_word": false,
       "special": false
     },
-    "51580": {
+    "35379": {
       "content": "산재근로자생활안정자금융자",
       "lstrip": false,
       "normalized": true,
@@ -6049,7 +3080,7 @@
       "single_word": false,
       "special": false
     },
-    "51581": {
+    "35380": {
       "content": "산재근로자케어센터지원",
       "lstrip": false,
       "normalized": true,
@@ -6057,7 +3088,7 @@
       "single_word": false,
       "special": false
     },
-    "51582": {
+    "35381": {
       "content": "산재근로자합병증등예방관리",
       "lstrip": false,
       "normalized": true,
@@ -6065,7 +3096,7 @@
       "single_word": false,
       "special": false
     },
-    "51583": {
+    "35382": {
       "content": "산재근로자직업훈련",
       "lstrip": false,
       "normalized": true,
@@ -6073,7 +3104,7 @@
       "single_word": false,
       "special": false
     },
-    "51584": {
+    "35383": {
       "content": "산재근로자직장복귀지원(사업주)",
       "lstrip": false,
       "normalized": true,
@@ -6081,7 +3112,7 @@
       "single_word": false,
       "special": false
     },
-    "51585": {
+    "35384": {
       "content": "산재근로자사회심리재활지원",
       "lstrip": false,
       "normalized": true,
@@ -6089,7 +3120,7 @@
       "single_word": false,
       "special": false
     },
-    "51586": {
+    "35385": {
       "content": "산재보험요양급여(재활보조기구)",
       "lstrip": false,
       "normalized": true,
@@ -6097,7 +3128,7 @@
       "single_word": false,
       "special": false
     },
-    "51587": {
+    "35386": {
       "content": "대체인력지원사업(사업주지원)",
       "lstrip": false,
       "normalized": true,
@@ -6105,7 +3136,7 @@
       "single_word": false,
       "special": false
     },
-    "51588": {
+    "35387": {
       "content": "산재근로자직장복귀지원(근로자)",
       "lstrip": false,
       "normalized": true,
@@ -6113,7 +3144,7 @@
       "single_word": false,
       "special": false
     },
-    "51589": {
+    "35388": {
       "content": "저임금근로자·예술인·노무제공자사회보험료지원(두루누리)",
       "lstrip": false,
       "normalized": true,
@@ -6121,7 +3152,7 @@
       "single_word": false,
       "special": false
     },
-    "51590": {
+    "35389": {
       "content": "농어업인건강보험료지원",
       "lstrip": false,
       "normalized": true,
@@ -6129,7 +3160,7 @@
       "single_word": false,
       "special": false
     },
-    "51591": {
+    "35390": {
       "content": "농어업인연금보험료지원",
       "lstrip": false,
       "normalized": true,
@@ -6137,7 +3168,7 @@
       "single_word": false,
       "special": false
     },
-    "51592": {
+    "35391": {
       "content": "농업인안전보험",
       "lstrip": false,
       "normalized": true,
@@ -6145,7 +3176,7 @@
       "single_word": false,
       "special": false
     },
-    "51593": {
+    "35392": {
       "content": "어업인안전보험",
       "lstrip": false,
       "normalized": true,
@@ -6153,7 +3184,7 @@
       "single_word": false,
       "special": false
     },
-    "51594": {
+    "35393": {
       "content": "어선원및어선재해보상보험",
       "lstrip": false,
       "normalized": true,
@@ -6161,7 +3192,7 @@
       "single_word": false,
       "special": false
     },
-    "51595": {
+    "35394": {
       "content": "취약농가인력지원(행복나눔이)",
       "lstrip": false,
       "normalized": true,
@@ -6169,7 +3200,7 @@
       "single_word": false,
       "special": false
     },
-    "51596": {
+    "35395": {
       "content": "취약농가인력지원(영농도움이)",
       "lstrip": false,
       "normalized": true,
@@ -6177,7 +3208,7 @@
       "single_word": false,
       "special": false
     },
-    "51597": {
+    "35396": {
       "content": "취약어가인력지원(어촌생활돌봄지원)",
       "lstrip": false,
       "normalized": true,
@@ -6185,7 +3216,7 @@
       "single_word": false,
       "special": false
     },
-    "51598": {
+    "35397": {
       "content": "취약어가인력지원(어업활동지원)",
       "lstrip": false,
       "normalized": true,
@@ -6193,7 +3224,7 @@
       "single_word": false,
       "special": false
     },
-    "51599": {
+    "35398": {
       "content": "농촌주택개량사업",
       "lstrip": false,
       "normalized": true,
@@ -6201,7 +3232,7 @@
       "single_word": false,
       "special": false
     },
-    "51600": {
+    "35399": {
       "content": "도서민여객선운임지원",
       "lstrip": false,
       "normalized": true,
@@ -6209,7 +3240,7 @@
       "single_word": false,
       "special": false
     },
-    "51601": {
+    "35400": {
       "content": "농어가목돈마련저축장려금",
       "lstrip": false,
       "normalized": true,
@@ -6217,7 +3248,7 @@
       "single_word": false,
       "special": false
     },
-    "51602": {
+    "35401": {
       "content": "농촌공동아이돌봄센터",
       "lstrip": false,
       "normalized": true,
@@ -6225,7 +3256,7 @@
       "single_word": false,
       "special": false
     },
-    "51603": {
+    "35402": {
       "content": "이동식놀이교실",
       "lstrip": false,
       "normalized": true,
@@ -6233,7 +3264,7 @@
       "single_word": false,
       "special": false
     },
-    "51604": {
+    "35403": {
       "content": "농번기아이돌봄방",
       "lstrip": false,
       "normalized": true,
@@ -6241,7 +3272,7 @@
       "single_word": false,
       "special": false
     },
-    "51605": {
+    "35404": {
       "content": "농촌보육교사특별근무수당",
       "lstrip": false,
       "normalized": true,
@@ -6249,7 +3280,7 @@
       "single_word": false,
       "special": false
     },
-    "51606": {
+    "35405": {
       "content": "의사상자등지원",
       "lstrip": false,
       "normalized": true,
@@ -6257,7 +3288,7 @@
       "single_word": false,
       "special": false
     },
-    "51607": {
+    "35406": {
       "content": "북한이탈주민사회보장지원",
       "lstrip": false,
       "normalized": true,
@@ -6265,7 +3296,7 @@
       "single_word": false,
       "special": false
     },
-    "51608": {
+    "35407": {
       "content": "북한이탈주민취약계층긴급생계비지원",
       "lstrip": false,
       "normalized": true,
@@ -6273,7 +3304,7 @@
       "single_word": false,
       "special": false
     },
-    "51609": {
+    "35408": {
       "content": "북한이탈주민의료비지원",
       "lstrip": false,
       "normalized": true,
@@ -6281,7 +3312,7 @@
       "single_word": false,
       "special": false
     },
-    "51610": {
+    "35409": {
       "content": "북한이탈주민정착금지원",
       "lstrip": false,
       "normalized": true,
@@ -6289,7 +3320,7 @@
       "single_word": false,
       "special": false
     },
-    "51611": {
+    "35410": {
       "content": "탈북학생교육지원(멘토링지원등)",
       "lstrip": false,
       "normalized": true,
@@ -6297,7 +3328,7 @@
       "single_word": false,
       "special": false
     },
-    "51612": {
+    "35411": {
       "content": "탈북학생교육지원(학력인정등)",
       "lstrip": false,
       "normalized": true,
@@ -6305,7 +3336,7 @@
       "single_word": false,
       "special": false
     },
-    "51613": {
+    "35412": {
       "content": "북한이탈주민교육비지원",
       "lstrip": false,
       "normalized": true,
@@ -6313,7 +3344,7 @@
       "single_word": false,
       "special": false
     },
-    "51614": {
+    "35413": {
       "content": "북한이탈주민취업지원",
       "lstrip": false,
       "normalized": true,
@@ -6321,7 +3352,7 @@
       "single_word": false,
       "special": false
     },
-    "51615": {
+    "35414": {
       "content": "북한이탈주민자산형성지원(미래행복통장)",
       "lstrip": false,
       "normalized": true,
@@ -6329,7 +3360,7 @@
       "single_word": false,
       "special": false
     },
-    "51616": {
+    "35415": {
       "content": "북한이탈주민주택알선지원",
       "lstrip": false,
       "normalized": true,
@@ -6337,7 +3368,7 @@
       "single_word": false,
       "special": false
     },
-    "51617": {
+    "35416": {
       "content": "북한이탈주민법률상담",
       "lstrip": false,
       "normalized": true,
@@ -6345,7 +3376,7 @@
       "single_word": false,
       "special": false
     },
-    "51618": {
+    "35417": {
       "content": "석면피해자지원(석면피해구제급여)",
       "lstrip": false,
       "normalized": true,
@@ -6353,7 +3384,7 @@
       "single_word": false,
       "special": false
     },
-    "51619": {
+    "35418": {
       "content": "노숙인등복지지원",
       "lstrip": false,
       "normalized": true,
@@ -6361,7 +3392,7 @@
       "single_word": false,
       "special": false
     },
-    "51620": {
+    "35419": {
       "content": "출소자등자립지원",
       "lstrip": false,
       "normalized": true,
@@ -6369,7 +3400,7 @@
       "single_word": false,
       "special": false
     },
-    "51621": {
+    "35420": {
       "content": "영주귀국사할린한인지원",
       "lstrip": false,
       "normalized": true,
@@ -6377,7 +3408,7 @@
       "single_word": false,
       "special": false
     },
-    "51622": {
+    "35421": {
       "content": "일본군위안부피해자생활안정및기념사업",
       "lstrip": false,
       "normalized": true,
@@ -6385,7 +3416,7 @@
       "single_word": false,
       "special": false
     },
-    "51623": {
+    "35422": {
       "content": "원폭피해자지원",
       "lstrip": false,
       "normalized": true,
@@ -6393,7 +3424,7 @@
       "single_word": false,
       "special": false
     },
-    "51624": {
+    "35423": {
       "content": "진폐근로자보호",
       "lstrip": false,
       "normalized": true,
@@ -6401,7 +3432,7 @@
       "single_word": false,
       "special": false
     },
-    "51625": {
+    "35424": {
       "content": "한센인피해자지원",
       "lstrip": false,
       "normalized": true,
@@ -6409,7 +3440,7 @@
       "single_word": false,
       "special": false
     },
-    "51626": {
+    "35425": {
       "content": "개발제한구역생활비용보조",
       "lstrip": false,
       "normalized": true,
@@ -6417,7 +3448,7 @@
       "single_word": false,
       "special": false
     },
-    "51627": {
+    "35426": {
       "content": "외국인근로자등의료지원",
       "lstrip": false,
       "normalized": true,
@@ -6425,7 +3456,7 @@
       "single_word": false,
       "special": false
     },
-    "51628": {
+    "35427": {
       "content": "풍수해보험",
       "lstrip": false,
       "normalized": true,
@@ -6433,7 +3464,7 @@
       "single_word": false,
       "special": false
     },
-    "51629": {
+    "35428": {
       "content": "범죄피해자에대한경제적지원사업",
       "lstrip": false,
       "normalized": true,
@@ -6441,7 +3472,7 @@
       "single_word": false,
       "special": false
     },
-    "51630": {
+    "35429": {
       "content": "1인가구사회적관계망형성지원사업",
       "lstrip": false,
       "normalized": true,
@@ -6449,7 +3480,7 @@
       "single_word": false,
       "special": false
     },
-    "51631": {
+    "35430": {
       "content": "독거노인사회관계활성화지원",
       "lstrip": false,
       "normalized": true,
@@ -6457,7 +3488,7 @@
       "single_word": false,
       "special": false
     },
-    "51632": {
+    "35431": {
       "content": "지역사회서비스투자사업",
       "lstrip": false,
       "normalized": true,
@@ -6465,7 +3496,7 @@
       "single_word": false,
       "special": false
     },
-    "51633": {
+    "35432": {
       "content": "공동육아나눔터운영",
       "lstrip": false,
       "normalized": true,
@@ -6473,7 +3504,7 @@
       "single_word": false,
       "special": false
     },
-    "51634": {
+    "35433": {
       "content": "희망복지지원단통합사례관리사업",
       "lstrip": false,
       "normalized": true,
@@ -6481,7 +3512,7 @@
       "single_word": false,
       "special": false
     },
-    "51635": {
+    "35434": {
       "content": "기존주택일반저소득층·신혼부부·청년등매입임대주택지원",
       "lstrip": false,
       "normalized": true,
@@ -6489,7 +3520,7 @@
       "single_word": false,
       "special": false
     },
-    "51636": {
+    "35435": {
       "content": "기존주택일반저소득층·신혼부부·청년등전세임대지원",
       "lstrip": false,
       "normalized": true,
@@ -6497,7 +3528,7 @@
       "single_word": false,
       "special": false
     },
-    "51637": {
+    "35436": {
       "content": "청년월세한시특별지원",
       "lstrip": false,
       "normalized": true,
@@ -6505,7 +3536,7 @@
       "single_word": false,
       "special": false
     },
-    "51638": {
+    "35437": {
       "content": "행복주택공급",
       "lstrip": false,
       "normalized": true,
@@ -6513,7 +3544,7 @@
       "single_word": false,
       "special": false
     },
-    "51639": {
+    "35438": {
       "content": "내집마련디딤돌대출(주택구입시)",
       "lstrip": false,
       "normalized": true,
@@ -6521,7 +3552,7 @@
       "single_word": false,
       "special": false
     },
-    "51640": {
+    "35439": {
       "content": "버팀목대출보증",
       "lstrip": false,
       "normalized": true,
@@ -6529,7 +3560,7 @@
       "single_word": false,
       "special": false
     },
-    "51641": {
+    "35440": {
       "content": "버팀목전세자금대출(전·월세보증금대출시)",
       "lstrip": false,
       "normalized": true,
@@ -6537,7 +3568,7 @@
       "single_word": false,
       "special": false
     },
-    "51642": {
+    "35441": {
       "content": "보금자리론",
       "lstrip": false,
       "normalized": true,
@@ -6545,7 +3576,7 @@
       "single_word": false,
       "special": false
     },
-    "51643": {
+    "35442": {
       "content": "전세금안심대출보증",
       "lstrip": false,
       "normalized": true,
@@ -6553,7 +3584,7 @@
       "single_word": false,
       "special": false
     },
-    "51644": {
+    "35443": {
       "content": "주거안정월세대출보증",
       "lstrip": false,
       "normalized": true,
@@ -6561,7 +3592,7 @@
       "single_word": false,
       "special": false
     },
-    "51645": {
+    "35444": {
       "content": "주거안정월세대출(순수월세대출시)",
       "lstrip": false,
       "normalized": true,
@@ -6569,7 +3600,7 @@
       "single_word": false,
       "special": false
     },
-    "51646": {
+    "35445": {
       "content": "국민임대주택공급",
       "lstrip": false,
       "normalized": true,
@@ -6577,7 +3608,7 @@
       "single_word": false,
       "special": false
     },
-    "51647": {
+    "35446": {
       "content": "분양전환공공임대주택공급",
       "lstrip": false,
       "normalized": true,
@@ -6585,7 +3616,7 @@
       "single_word": false,
       "special": false
     },
-    "51648": {
+    "35447": {
       "content": "영구임대주택공급",
       "lstrip": false,
       "normalized": true,
@@ -6593,7 +3624,7 @@
       "single_word": false,
       "special": false
     },
-    "51649": {
+    "35448": {
       "content": "가족희망드림지원",
       "lstrip": false,
       "normalized": true,
@@ -6601,7 +3632,7 @@
       "single_word": false,
       "special": false
     },
-    "51650": {
+    "35449": {
       "content": "긴급주거지원",
       "lstrip": false,
       "normalized": true,
@@ -6609,7 +3640,7 @@
       "single_word": false,
       "special": false
     },
-    "51651": {
+    "35450": {
       "content": "주거취약계층주거지원",
       "lstrip": false,
       "normalized": true,
@@ -6617,7 +3648,7 @@
       "single_word": false,
       "special": false
     },
-    "51652": {
+    "35451": {
       "content": "기초생활수급자를위한요금감면제도",
       "lstrip": false,
       "normalized": true,
@@ -6625,7 +3656,7 @@
       "single_word": false,
       "special": false
     },
-    "51653": {
+    "35452": {
       "content": "주거급여(맞춤형급여)",
       "lstrip": false,
       "normalized": true,
@@ -6633,7 +3664,7 @@
       "single_word": false,
       "special": false
     },
-    "51654": {
+    "35453": {
       "content": "LPG용기사용가구시설개선",
       "lstrip": false,
       "normalized": true,
@@ -6641,7 +3672,7 @@
       "single_word": false,
       "special": false
     },
-    "51655": {
+    "35454": {
       "content": "노후영구임대주택리모델링",
       "lstrip": false,
       "normalized": true,
@@ -6649,7 +3680,7 @@
       "single_word": false,
       "special": false
     },
-    "51656": {
+    "35455": {
       "content": "사회취약계층환경성질환예방사업",
       "lstrip": false,
       "normalized": true,
@@ -6657,7 +3688,7 @@
       "single_word": false,
       "special": false
     },
-    "51657": {
+    "35456": {
       "content": "슬레이트처리지원",
       "lstrip": false,
       "normalized": true,
@@ -6665,7 +3696,7 @@
       "single_word": false,
       "special": false
     },
-    "51658": {
+    "35457": {
       "content": "에너지취약계층고효율조명기기무상교체지원",
       "lstrip": false,
       "normalized": true,
@@ -6673,7 +3704,7 @@
       "single_word": false,
       "special": false
     },
-    "51659": {
+    "35458": {
       "content": "에너지바우처",
       "lstrip": false,
       "normalized": true,
@@ -6681,7 +3712,7 @@
       "single_word": false,
       "special": false
     },
-    "51660": {
+    "35459": {
       "content": "저소득층에너지효율개선",
       "lstrip": false,
       "normalized": true,
@@ -6689,7 +3720,7 @@
       "single_word": false,
       "special": false
     },
-    "51661": {
+    "35460": {
       "content": "고용고교취업연계장려금",
       "lstrip": false,
       "normalized": true,
@@ -6697,7 +3728,7 @@
       "single_word": false,
       "special": false
     },
-    "51662": {
+    "35461": {
       "content": "주거국민임대주택공급",
       "lstrip": false,
       "normalized": true,
@@ -6705,7 +3736,7 @@
       "single_word": false,
       "special": false
     },
-    "51663": {
+    "35462": {
       "content": "신재생에너지설치지원",
       "lstrip": false,
       "normalized": true,
@@ -6713,7 +3744,7 @@
       "single_word": false,
       "special": false
     },
-    "51664": {
+    "35463": {
       "content": "법률구조제도",
       "lstrip": false,
       "normalized": true,
@@ -6721,7 +3752,7 @@
       "single_word": false,
       "special": false
     },
-    "51665": {
+    "35464": {
       "content": "취약농가인력지원(영농도우미)",
       "lstrip": false,
       "normalized": true,
@@ -6729,7 +3760,7 @@
       "single_word": false,
       "special": false
     },
-    "51666": {
+    "35465": {
       "content": "취업준비",
       "lstrip": false,
       "normalized": true,
@@ -6737,7 +3768,7 @@
       "single_word": false,
       "special": false
     },
-    "51667": {
+    "35466": {
       "content": "취준",
       "lstrip": false,
       "normalized": true,
@@ -6745,7 +3776,7 @@
       "single_word": false,
       "special": false
     },
-    "51668": {
+    "35467": {
       "content": "급식카드",
       "lstrip": false,
       "normalized": true,
@@ -6754,10 +3785,19 @@
       "special": false
     }
   },
-  "bos_token": "<|endoftext|>",
   "clean_up_tokenization_spaces": true,
-  "eos_token": "<|endoftext|>",
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": false,
+  "full_tokenizer_file": null,
+  "mask_token": "[MASK]",
+  "max_model_length": 512,
   "model_max_length": 1000000000000000019884624838656,
-  "tokenizer_class": "GPT2Tokenizer",
-  "unk_token": "<|endoftext|>"
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "ElectraTokenizer",
+  "unk_token": "[UNK]"
 }
