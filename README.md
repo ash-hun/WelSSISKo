@@ -1,7 +1,15 @@
-# WelSSISKo
-WelSSISKo : 복지로 웹 포털의 오픈소스를 바탕으로 만든 도메인 특화 언어모델 (KoELECTRA-v3-finetune-korquad base).
+<div align="center">
+  <img src="./assets/logo02.png" width="50%" />
+  <h3>WelSSISKo</h3>
+  <p>
+    Welfare Domain Specific QA Model
+  </p>
+  
+</div>
+
 
 ## Download Links
+
 
 ## Contributors
 
