@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="./assets/logo02.png" width="50%" />
-  <h3>WelSSISKo</h3>
+  <img src="./assets/logo02.png" width="30%" />
+  <h1>WelSSISKo</h1>
   <p>
     Welfare Domain Specific QA Model
   </p>
