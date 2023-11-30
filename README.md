@@ -8,7 +8,7 @@
 
 ## ✅ Model Links
 
-👉 [**WelSSiSKo-Chat (Nov.30 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo-Chat)
+👉 [**WelSSiSKo-Chat (Nov.30 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo-Chat)  
 👉 [**WelSSiSKo (Nov.11 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo)
 
 ## 👥 Contributors
