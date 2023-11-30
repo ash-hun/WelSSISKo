@@ -36,7 +36,7 @@ print(question_answer(question=q2, context=c2, truncation=True))
 
 ## WelSSiSKo Model
 - 본 모델은 빅리더 AI인턴쉽에서 주관한 SSiS와의 프로젝트 진행중 '도메인 특화 모델'제작에 대한 가능성 입증을 위해 만든 것입니다. 복지 도메인에 특화된 Chat-Model로 기획하였으나 복합적인 이유로 QA-Model로 방향을 바꾸어 제작되었습니다.
-- 추가적으로 `beomi/polyglot-ko-12.8b-safetensors`를 바탕으로 chatmodel로 파인튜닝한 모델을 huggingface에 올려두었으니 참고하시길 바랍니다.
+- 추가적으로 `beomi/polyglot-ko-12.8b-safetensors`를 바탕으로 chatmodel로 파인튜닝한 모델을 huggingface에 올려두었으니 참고하시길 바랍니다. **[👉 LINK](https://huggingface.co/Ash-Hun/WelSSiSKo-Chat)**
 
 #### Backbone Model
 - [KoELECTRA-base-v3-finetuned-korquad](https://huggingface.co/monologg/koelectra-base-v3-finetuned-korquad)
