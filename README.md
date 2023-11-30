@@ -28,7 +28,7 @@
   - 주어진 Compute Power와 기간(약 10일), 난이도, 데이터셋 생성 등 다양한 복합요소를 고려하여 가장 범용적으로 활용되는 모델을 선정하게 되었습니다.
 - **`WelSSiSKo-Chat`**
   - [Polyglot-ko-12.8B-SafeTensors](https://huggingface.co/beomi/polyglot-ko-12.8b-safetensors)
-  - LoRA를 활용하여 기존에 사용된 데이터셋과 더불어 새로 생성한 데이터셋을 얹어 
+  - LoRA를 활용하여 기존에 사용된 데이터셋과 더불어 새로 생성한 데이터셋을 얹어 사용함
 
 ### Vocabulary
 - 복지 도메인에 특화된 단어를 아래 정성적 기준에 맞추어 선정하였습니다.
