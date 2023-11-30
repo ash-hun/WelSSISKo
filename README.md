@@ -5,6 +5,7 @@
 </div>
 
 ---
+
 ## ✅ Model Links
 
 👉 [**WelSSiSKo-Chat (Nov.30 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo-Chat)
@@ -91,11 +92,11 @@
   - First Complete Version Upload
 </details>
 
-### ✉️ Acknowldgement
+## ✉️ Acknowldgement
 
 - *WelSSiSKo* 는 빅리더 AI인턴쉽과 SSiS가 함께한 프로젝트에서 도메인 특화모델의 가능성을 입증하기위해 만든 모델로써 충분하지 않은 도메인 데이터와 다소 깨끗하지않은 전처리 데이터를 바탕으로 학습된 모델입니다. 이후 천천히 수정되어 나갈 계획이니 양해바랍니다.
 
-### 🔗 Citation
+## 🔗 Citation
     @misc{welssisko,
           author = {ash-hun and Noveled },
           title = {WelSSiSKo : Welfare Domain Specific Korean Language Model},
@@ -105,7 +106,7 @@
           howpublished = {\url{https://github.com/ash-hun/WelSSISKo}},
         }
 
-### 📑 Reference
+## 📑 Reference
 - [monologg/KoELECTRA](https://github.com/monologg/KoELECTRA)
 - [beomi/KoAlpaca](https://github.com/Beomi/KoAlpaca)
 - [beomi/peft](https://github.com/Beomi/peft)
