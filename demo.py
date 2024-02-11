@@ -14,6 +14,7 @@ warnings.filterwarnings('ignore')
 HF_TOKEN = os.getenv('HUGGINGFACE_TOKEN')
 
 # Setting Config
+# Check ) mac OS can not load the model because mac OS gpus(=mps) don't support bfloat16. So, this case use to colab please.
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -22,16 +23,21 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=False
 )
 
+# Model Load
 load_model = AutoModelForCausalLM.from_pretrained("beomi/llama-2-ko-7b", quantization_config=bnb_config, device_map='auto', use_auth_token=HF_TOKEN)
 load_model.config.use_cache = False
 load_model.config.pretraining_tp = 1
 
+# Tokenizer Load
 base_tokenizer = AutoTokenizer.from_pretrained("beomi/llama-2-ko-7b", trust_remote_code=True, use_auth_token=HF_TOKEN)
 base_tokenizer.pad_token = base_tokenizer.eos_token
 base_tokenizer.padding_side = "right"
 
+# LoRA Adaptor connection
 load_model = PeftModel.from_pretrained(load_model, "Ash-Hun/WelSSiSKo_v3_llama-2-ko-base_text-generation")
 
+
+# define function
 def prompt_processing(user_input):
     return f'### Instruction:\n{user_input}\n\n### Response:'
 
@@ -41,6 +47,7 @@ def export_output(ouput_text):
     sep = sep[:sep.find('.')+1] if '.' in sep else sep
     return sep
 
+# Set pipeline
 gen_pipe = pipeline(task="text-generation",
                 model=load_model,
                 tokenizer=base_tokenizer,
@@ -56,7 +63,20 @@ gen_pipe = pipeline(task="text-generation",
                 # early_stopping=True
 )
 
+def branching(trigger):
+    print("="*40)
+    print("If you want to close this execute, please input number 1")
+    trigger = int(input())
+    if trigger == 1:
+        return trigger
+    else:
+        return 0
+    
+
 if __name__ == "__main__":
-    prompt = "장애인 복지와 관련된 세제 혜택을 체크할 때 중요한 점은 무엇인가요?"  
-    result = gen_pipe(prompt_processing(prompt))  
-    print(export_output(result))
+    trig = 0
+    while trig != 1:
+        prompt = input("Input your question : ")  
+        result = gen_pipe(prompt_processing(prompt))  
+        print(export_output(result))
+        trig = branching(trig)
