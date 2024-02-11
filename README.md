@@ -8,7 +8,7 @@
 
 ## ✅ Model Links
 
-👉 [**WelSSiSKo_v3_llama-2-ko-base_text-generation (Feb.11 2024)**](https://huggingface.co/Ash-Hun/WelSSiSKo_v3_llama-2-ko-base_text-generation)
+👉 [**WelSSiSKo_v3_llama-2-ko-base_text-generation (Feb.11 2024)**](https://huggingface.co/Ash-Hun/WelSSiSKo_v3_llama-2-ko-base_text-generation)  
 👉 [**WelSSiSKo-Chat (Nov.30 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo-Chat)  
 👉 [**WelSSiSKo (Nov.11 2023)**](https://huggingface.co/Ash-Hun/WelSSiSKo)
 
