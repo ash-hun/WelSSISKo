@@ -70,3 +70,4 @@
 - [Langcon 2023](https://festa.io/events/3097)
 - [박장원 : 특정 도메인에 맞는 언어 모델은 어떻게 만들까](https://www.youtube.com/watch?v=N3VDk9pRZuw&ab_channel=Language)
 - [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
+- [easy_finetuner](https://github.com/choijhyeok/easy_finetuner)
