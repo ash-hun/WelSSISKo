@@ -21,6 +21,10 @@
 ### 📋 Data
 - 학습에 사용된 데이터는 [Welfare QA](https://huggingface.co/datasets/Ash-Hun/Welfare-QA)를 가공하여 사용하였습니다.
 
+### 💯 Evaluate
+- 해당 Domain에 대한 Data Benchmark가 따로 없기 때문에 정성평가를 진행하였습니다.
+- 같은 Query를 넣었을 때 생성하는 답변에 대해서 기존답변과 생성한 답변에 대해 유사도를 측정하였고 **AVG Score 74**입니다.
+
 
 ## 📆 Updates
 
